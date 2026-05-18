@@ -1,0 +1,247 @@
+{
+  "ticker": "JNJ",
+  "company_name": "JNJ",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-22",
+  "supplemental_filing_type": "10-K",
+  "supplemental_filing_date": "2026-02-11",
+  "report_generated_at": "2026-05-12T11:48:25.094883+00:00",
+  "key_metrics": [
+    {
+      "name": "Basic net earnings per share",
+      "value": "2.17",
+      "unit": "USD",
+      "source_citation": "Financial Statements — Note 8 —"
+    },
+    {
+      "name": "Diluted net earnings per share",
+      "value": "2.14",
+      "unit": "USD",
+      "source_citation": "Financial Statements — Note 8 —"
+    },
+    {
+      "name": "Net earnings",
+      "value": "5,235",
+      "unit": "USD Million",
+      "source_citation": "Other — Gross profit"
+    },
+    {
+      "name": "Gross profit",
+      "value": "15,956",
+      "unit": "USD Million",
+      "source_citation": "Other — Gross profit"
+    },
+    {
+      "name": "Net cash flows from operating activities",
+      "value": "2,514",
+      "unit": "USD Million",
+      "source_citation": "Other — 169,161"
+    },
+    {
+      "name": "Total cash, cash equivalents and current marketable securities",
+      "value": "22,051",
+      "unit": "USD Million",
+      "source_citation": "Financial Statements — 6,675"
+    },
+    {
+      "name": "Total debt",
+      "value": "47,933",
+      "unit": "USD Million",
+      "source_citation": "Quantitative Disclosures — 393"
+    },
+    {
+      "name": "Total revenue",
+      "value": "24,062",
+      "unit": "USD Million",
+      "source_citation": "Financial Statements — 384"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "TOTAL MEDTECH",
+      "revenue": "8,636",
+      "yoy_change": "7.7%",
+      "commentary": "Growth driven by new product innovations and strategic pricing actions.",
+      "source_citation": "Financial Statements — 384"
+    },
+    {
+      "name": "WORLDWIDE",
+      "revenue": "24,062",
+      "yoy_change": "9.9%",
+      "commentary": "Overall growth supported by operational growth and positive currency impact.",
+      "source_citation": "Financial Statements — 384"
+    }
+  ],
+  "forward_guidance": {
+    "text": "No forward guidance issued in this filing.",
+    "source_citation": "MD&A"
+  },
+  "key_risks": [
+    {
+      "description": "Competitive pressures and regulatory scrutiny could impact revenue growth and profit margins.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "Potential changes in tax laws may lead to greater audit scrutiny and additional tax liabilities.",
+      "is_new": false,
+      "source_citation": "Notes — Commitments and Contingencies"
+    },
+    {
+      "description": "Legal contingencies and tax liabilities may obscure underlying financial risks.",
+      "is_new": false,
+      "source_citation": "Notes — Commitments and Contingencies"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Johnson & Johnson to separate DePuy Synthes ortho business",
+      "date": "",
+      "url": "https://www.massdevice.com/johnson-johnson-separate-orthopedics-business/",
+      "relevance_note": "Discusses the strategic separation of the Orthopaedics business."
+    },
+    {
+      "headline": "Why is Johnson & Johnson Selling its Orthopedics Unit",
+      "date": "",
+      "url": "https://www.kavout.com/market-lens/why-is-johnson-johnson-selling-its-orthopedics-unit",
+      "relevance_note": "Explores the rationale behind the separation of the Orthopaedics business."
+    },
+    {
+      "headline": "J&J spins off orthopaedics business against positive Q3 backdrop",
+      "date": "",
+      "url": "https://www.pharmaceutical-technology.com/news/johnson-johnson-q3-financial-results-orthopaedic-spinoff/",
+      "relevance_note": "Provides context on the Orthopaedics business spin-off."
+    }
+  ],
+  "bull_case": [
+    "JNJ's strategic separation of its Orthopaedics business is expected to enhance focus on higher-growth areas within the MedTech segment, potentially accelerating innovation and strategic agility.",
+    "Product innovations and strong market demand, particularly in Vision and Surgical franchises, are likely to drive continued growth.",
+    "Despite competitive pressures, JNJ's focus on innovation and new product launches positions it well for growth, especially in the Orthopaedics and Neuroscience segments."
+  ],
+  "bear_case": [
+    "JNJ's capital allocation strategy, particularly regarding dividends and stock buybacks, appears aggressive relative to its cash flow generation, indicating potential sustainability issues.",
+    "JNJ faces significant risks that could undermine its revenue growth and profit margins, including competitive pressures, regulatory scrutiny, and potential changes in tax laws.",
+    "JNJ's financial disclosures indicate that their accounting practices, especially regarding legal contingencies and tax liabilities, may obscure underlying financial risks."
+  ],
+  "what_to_watch": [
+    {
+      "text": "**Orthopaedics Business Separation:** Johnson & Johnson's strategic separation of its Orthopaedics business is likely to enhance its focus on higher-growth areas within the MedTech segment, positioning the company for accelerated innovation and strategic agility in a competitive landscape.\n\n-> Monitor updates on the separation process and its impact on JNJ's growth strategy.",
+      "relevant_urls": [
+        "https://www.massdevice.com/johnson-johnson-separate-orthopedics-business/",
+        "https://www.kavout.com/market-lens/why-is-johnson-johnson-selling-its-orthopedics-unit"
+      ]
+    },
+    {
+      "text": "**Capital Allocation Strategy:** JNJ's capital allocation strategy, particularly regarding dividends and stock buybacks, appears aggressive relative to its cash flow generation, indicating potential sustainability issues.\n\n-> Watch for commentary on capital allocation priorities and any adjustments in dividend or buyback plans.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Competitive Pressures and Innovation:** Despite competitive pressures, JNJ's focus on innovation and new product launches positions it well for growth, especially in the Orthopaedics and Neuroscience segments.\n\n-> Keep an eye on new product launches and their market reception, particularly in high-growth segments.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Regulatory and Tax Risks:** JNJ faces significant risks that could undermine its revenue growth and profit margins, including regulatory scrutiny and potential changes in tax laws.\n\n-> Monitor regulatory developments and tax law changes that could impact JNJ's financial performance.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Financial Transparency:** JNJ's financial disclosures indicate that their accounting practices, especially regarding legal contingencies and tax liabilities, may obscure underlying financial risks.\n\n-> Look for any changes in financial reporting practices or additional disclosures that improve transparency.",
+      "relevant_urls": []
+    }
+  ],
+  "data_gaps": [
+    "No forward guidance issued in this filing.",
+    "Lack of detailed segment-specific forward-looking statements."
+  ],
+  "hypotheses_explored": [
+    {
+      "id": "h2",
+      "proposing_personality": "Conservative",
+      "question": "Is JNJ's capital allocation strategy sustainable given its current cash flows and obligations?",
+      "summary": "JNJ's capital allocation strategy, particularly regarding dividends and stock buybacks, appears aggressive relative to its cash flow generation, indicating potential sustainability issues.",
+      "evidence_quotes": [
+        "Cash flow used for financing activities of $5.5 billion was primarily due to: $(12.4) billion dividends to shareholders and $(6.0) billion repurchase of common stock.; The Company anticipates that operating cash flows...and access to the commercial paper markets will support its capital allocation strategy."
+      ],
+      "confidence": 3
+    },
+    {
+      "id": "h3",
+      "proposing_personality": "Dreamer",
+      "question": "How is Johnson & Johnson's strategic separation of its Orthopaedics business expected to impact its long-term growth and market focus over the next 5-10 years?",
+      "summary": "Johnson & Johnson's separation of its Orthopaedics business is likely to enhance its focus on higher-growth areas within the MedTech segment, positioning the company for accelerated innovation and strategic agility in a competitive landscape.",
+      "evidence_quotes": [
+        "The orthopaedics business, while substantial with $9.2 billion in sales in 2024—representing about 10% of J&J's total revenue and 29% of its MedTech segment—has been identified as a slower-growth area compared to other parts of the portfolio.; J&J's CEO, Joaquin Duato, articulated this shift as a pivot toward faster-growing MedTech segments, indicating a strategic redirection to focus resources and innovation where growth potential is higher."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h4",
+      "proposing_personality": "Dreamer",
+      "question": "How is Johnson & Johnson's strategic separation of its Orthopaedics business expected to impact its long-term growth and market focus over the next 5-10 years?",
+      "summary": "The planned separation of JNJ's Orthopaedics business is anticipated to create a new stand-alone entity that can better compete in the orthopaedics market while allowing JNJ to concentrate on its core innovative medicine and faster-growing MedTech segments.",
+      "evidence_quotes": [
+        "Johnson & Johnson (J&J) has made the latest slimming down move across its company in recent years, saying it plans to separate its orthopaedics business into a new stand-alone company.; According to J&J’s Chair and CEO, Joaquin Duato, this move is part of a strategy to redirect focus within its medical technology division toward higher-growth areas."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h5",
+      "proposing_personality": "Optimist",
+      "question": "What are the potential growth drivers for JNJ in the upcoming earnings call?",
+      "summary": "JNJ is likely to see continued growth driven by product innovations, strong market demand, and strategic pricing actions, particularly in its Vision and Surgical franchises.",
+      "evidence_quotes": [
+        "The Vision franchise achieved operational sales growth of 3.6% as compared to the prior year fiscal first quarter, driven by strong performance in the ACUVUE OASYS 1-Day family of products and strategic price actions.; The Surgical operational growth was primarily driven by the strength of recent product innovations, robust demand and strong commercial execution."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h6",
+      "proposing_personality": "Optimist",
+      "question": "How is JNJ positioned against competitive pressures in its market segments?",
+      "summary": "Despite competitive pressures, JNJ's focus on innovation and new product launches positions it well for growth, especially in the Orthopaedics and Neuroscience segments.",
+      "evidence_quotes": [
+        "The operational growth in Hips was due to new product launches.; Neuroscience products achieved operational growth of 29.3% compared to the same period a year ago, driven by continued increased physician and patient demand."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h7",
+      "proposing_personality": "Pessimist",
+      "question": "Are JNJ's current revenue growth and profit margins sustainable, or are there underlying issues that could lead to deterioration in their unit economics?",
+      "summary": "JNJ faces significant risks that could undermine its revenue growth and profit margins, including competitive pressures, regulatory scrutiny, and potential changes in tax laws.",
+      "evidence_quotes": [
+        "The operational growth in Spine, Sports & Other was driven by new product innovations and growth in shoulders partially offset by competitive pressures and inventory dynamics.; Governments around the world consider various proposals to make changes to tax laws, which may include increasing or decreasing existing statutory tax rates. This may lead to greater audit scrutiny of profits earned in other countries, potentially exposing the company to additional tax liabilities.; Compliance with local regulations and laws that may restrict the Company’s ability to manufacture or sell its products in relevant markets, including requirements to comply with medical device reporting regulations and other requirements such as the European Union’s Medical Devices Regulation."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h8",
+      "proposing_personality": "Pessimist",
+      "question": "Is JNJ's accounting treatment of revenue and liabilities masking potential financial vulnerabilities?",
+      "summary": "JNJ's financial disclosures indicate that their accounting practices, especially regarding legal contingencies and tax liabilities, may obscure underlying financial risks.",
+      "evidence_quotes": [
+        "Amounts accrued for legal contingencies often result from a complex series of judgments about future events and uncertainties that rely heavily on estimates and assumptions.; Changes in domestic and international tax laws and regulations, increasing audit scrutiny by tax authorities around the world may cause exposures to additional tax liabilities potentially in excess of existing reserves."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h9",
+      "proposing_personality": "Quant",
+      "question": "What are the recent growth rates and margin trajectories for JNJ's segments?",
+      "summary": "JNJ's Innovative Medicine segment continues to show solid growth despite challenges, while MedTech demonstrates stable growth with varying performance across franchises. The overall margin has decreased significantly year-over-year due to a one-time event.",
+      "evidence_quotes": [
+        "Sales to customers for the fiscal first quarter of 2026 were $24.1 billion, a total increase of 9.9%, which included operational growth of 6.4% and a positive currency impact of 3.5% as compared to 2025 fiscal first quarter sales of $21.9 billion. (MD&A — Q1 2026); Consolidated earnings before provision for taxes on income for the fiscal first quarter of 2026 was $6.0 billion representing 24.9% of sales as compared to $13.6 billion in the fiscal first quarter of 2025, representing 62.3% of sales. (MD&A — 30)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h10",
+      "proposing_personality": "Quant",
+      "question": "How does JNJ's segment performance compare to its historical trends?",
+      "summary": "The Innovative Medicine segment experienced a sales increase of 6.0% in 2025 compared to 2024, while MedTech's total sales growth was 6.1%, indicating consistent performance but with potential margin compression due to rising costs.",
+      "evidence_quotes": [
+        "Innovative Medicine segment sales in 2025 were $60.4 billion, an increase of 6.0% from 2024. (MD&A — 2.8); Total MedTech Sales increased by 6.1% in 2025 compared to 2024. (MD&A — 2025 Sales by segment)"
+      ],
+      "confidence": 4
+    }
+  ]
+}

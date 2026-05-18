@@ -106,18 +106,14 @@ def _capture(fn, *args) -> tuple[EarningsReport, float, float, str]:
     return report, latency, cost, log
 
 
-def _capture_panel(
-    ticker: str, embedding_provider: str = "openai"
-) -> tuple[EarningsReport, float, float, str]:
+def _capture_panel(ticker: str) -> tuple[EarningsReport, float, float, str]:
     # Variant of _capture for run_personality_panel which returns
     # (report, personality_results, critique_messages). Extracts the report
     # and discards the trace details (the eval rubric scores the report).
     buf = io.StringIO()
     t0 = time.perf_counter()
     with contextlib.redirect_stdout(buf):
-        report, _personality_results, _critique = run_personality_panel(
-            ticker, embedding_provider=embedding_provider
-        )
+        report, _personality_results, _critique = run_personality_panel(ticker)
     elapsed = time.perf_counter() - t0
     log = buf.getvalue()
 
@@ -140,10 +136,8 @@ def _run_mode(
     if mode == "baseline":
         excerpt = _build_baseline_excerpt(filing)
         return _capture(run_baseline, ticker, excerpt)
-    elif mode == "yoda_openai":
-        return _capture_panel(ticker, embedding_provider="openai")
-    elif mode == "yoda_qwen":
-        return _capture_panel(ticker, embedding_provider="qwen")
+    elif mode == "yoda":
+        return _capture_panel(ticker)
     else:
         raise ValueError(f"Unknown mode: {mode}")
 
@@ -169,7 +163,7 @@ def _scores_to_dict(scores: JudgeScores) -> dict:
 
 def run_eval(
     tickers: list[str],
-    modes: list[str] = ("baseline", "yoda_openai", "yoda_qwen"),
+    modes: list[str] = ("baseline", "yoda"),
 ) -> pd.DataFrame:
     """Run each (ticker, mode) pair, judge it, return a long-format DataFrame.
 
@@ -311,9 +305,8 @@ def _write_summary(df: pd.DataFrame, path) -> None:
 # mode keys intact in the DataFrame / CSV / summary.md — only the chart
 # rebrands the modes for slide presentation.
 _MODE_DISPLAY = {
-    "baseline":    "Baseline",
-    "yoda_openai": "Yoda (OpenAI)",
-    "yoda_qwen":   "Yoda (Qwen)",
+    "baseline": "Baseline",
+    "yoda":     "Yoda",
 }
 
 
@@ -347,7 +340,7 @@ def _write_chart(df: pd.DataFrame, path) -> None:
 
     # Labels, title, axis limits, and grid.
     ax.set_ylabel("Mean Score (1-5)")
-    ax.set_title("Baseline vs Yoda (OpenAI) vs Yoda (Qwen) — Mean Rubric Scores")
+    ax.set_title("Baseline vs Yoda — Mean Rubric Scores")
     ax.set_xticks(x)
     ax.set_xticklabels([m.replace("_", "\n") for m in metrics], fontsize=9)
     ax.set_ylim(0, 5)

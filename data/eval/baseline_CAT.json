@@ -1,0 +1,97 @@
+{
+  "ticker": "CAT",
+  "company_name": "Caterpillar Inc.",
+  "filing_type": "10-Q",
+  "filing_date": "2026-05-12",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:56:16.920232+00:00",
+  "key_metrics": [
+    {
+      "name": "Total Sales and Revenues",
+      "value": "17.415",
+      "unit": "billion USD",
+      "source_citation": "MD&A, Highlights for the first quarter of 2026"
+    },
+    {
+      "name": "Operating Profit Margin",
+      "value": "17.7",
+      "unit": "percent",
+      "source_citation": "MD&A, Highlights for the first quarter of 2026"
+    },
+    {
+      "name": "Adjusted Operating Profit Margin",
+      "value": "18.0",
+      "unit": "percent",
+      "source_citation": "MD&A, Highlights for the first quarter of 2026"
+    },
+    {
+      "name": "Profit Per Share",
+      "value": "5.47",
+      "unit": "USD",
+      "source_citation": "MD&A, Highlights for the first quarter of 2026"
+    },
+    {
+      "name": "Adjusted Profit Per Share",
+      "value": "5.54",
+      "unit": "USD",
+      "source_citation": "MD&A, Highlights for the first quarter of 2026"
+    },
+    {
+      "name": "Enterprise Cash",
+      "value": "4.1",
+      "unit": "billion USD",
+      "source_citation": "MD&A, Highlights for the first quarter of 2026"
+    }
+  ],
+  "revenue_segments": [],
+  "forward_guidance": {
+    "text": "Caterpillar anticipates growth in Power Generation for both reciprocating engines and turbines, driven by increasing energy demand to support data center build-out related to cloud computing and generative AI. Oil & Gas is expected to see moderate growth in 2026 as compared to 2025.",
+    "source_citation": "Trends and Economic Conditions, Outlook for Key End Markets"
+  },
+  "key_risks": [
+    {
+      "description": "Increased uncertainty due to geopolitical events and elevated energy prices.",
+      "is_new": false,
+      "source_citation": "Trends and Economic Conditions, Outlook for Key End Markets"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Caterpillar (CAT) Earnings Date and Reports 2026 - MarketBeat",
+      "date": "",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CAT/earnings/",
+      "relevance_note": "Reports Q1 2026 EPS of $5.54, exceeding consensus estimates."
+    },
+    {
+      "headline": "Caterpillar forecasts higher annual revenue as power equipment benefits from AI buildout",
+      "date": "",
+      "url": "https://www.cnbc.com/2026/04/30/caterpillar-cat-q1-earnings.html",
+      "relevance_note": "Caterpillar raised its annual revenue forecast due to benefits from AI infrastructure boom."
+    }
+  ],
+  "bull_case": [
+    "Caterpillar's Q1 2026 earnings exceeded expectations, indicating strong financial performance.",
+    "The company forecasts higher annual revenue, driven by growth in power equipment benefiting from AI infrastructure."
+  ],
+  "bear_case": [
+    "Operating profit margin slightly decreased from 18.1% in Q1 2025 to 17.7% in Q1 2026, indicating potential cost pressures.",
+    "Unfavorable manufacturing costs due to higher tariff costs could impact future profitability."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor geopolitical events and energy prices as they could impact Caterpillar's market outlook.",
+      "relevant_urls": []
+    },
+    {
+      "text": "Track developments in AI infrastructure and data center build-outs, as these are key growth drivers for Caterpillar's power equipment segment.",
+      "relevant_urls": [
+        "https://www.cnbc.com/2026/04/30/caterpillar-cat-q1-earnings.html"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific revenue figures for each of Caterpillar's primary segments are not provided in the filing excerpt."
+  ],
+  "hypotheses_explored": []
+}

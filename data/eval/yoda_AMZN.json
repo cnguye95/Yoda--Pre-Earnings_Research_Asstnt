@@ -1,0 +1,303 @@
+{
+  "ticker": "AMZN",
+  "company_name": "AMZN",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-30",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:20:44.187321+00:00",
+  "key_metrics": [
+    {
+      "name": "Total net sales",
+      "value": "181,519",
+      "unit": "USD (in millions)",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Net income",
+      "value": "30,255",
+      "unit": "USD (in millions)",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Basic earnings per share",
+      "value": "2.82",
+      "unit": "USD",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Diluted earnings per share",
+      "value": "2.78",
+      "unit": "USD",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Operating income",
+      "value": "23,852",
+      "unit": "USD (in millions)",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Net cash provided by (used in) operating activities",
+      "value": "26,032",
+      "unit": "USD (in millions)",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Cash and cash equivalents",
+      "value": "101,816",
+      "unit": "USD (in millions)",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Total debt",
+      "value": "800",
+      "unit": "USD (in millions)",
+      "source_citation": "Other"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Online stores",
+      "revenue": "64,254",
+      "yoy_change": "11.9%",
+      "commentary": "Includes product sales and digital media content where revenue is recorded gross.",
+      "source_citation": "Financial Statements — 2"
+    },
+    {
+      "name": "Physical stores",
+      "revenue": "5,785",
+      "yoy_change": "4.6%",
+      "commentary": "Revenue from physical retail locations.",
+      "source_citation": "Financial Statements — 2"
+    },
+    {
+      "name": "Third-party seller services",
+      "revenue": "41,578",
+      "yoy_change": "13.9%",
+      "commentary": "Revenue from services provided to third-party sellers.",
+      "source_citation": "Financial Statements — 2"
+    },
+    {
+      "name": "Advertising services",
+      "revenue": "17,243",
+      "yoy_change": "23.8%",
+      "commentary": "Revenue from advertising services.",
+      "source_citation": "Financial Statements — 2"
+    },
+    {
+      "name": "Subscription services",
+      "revenue": "13,427",
+      "yoy_change": "14.6%",
+      "commentary": "Revenue from subscription services including Amazon Prime.",
+      "source_citation": "Financial Statements — 2"
+    },
+    {
+      "name": "AWS",
+      "revenue": "37,587",
+      "yoy_change": "28.4%",
+      "commentary": "Revenue from Amazon Web Services.",
+      "source_citation": "Financial Statements — 2"
+    },
+    {
+      "name": "Other",
+      "revenue": "1,645",
+      "yoy_change": "25.4%",
+      "commentary": "Includes miscellaneous revenue streams.",
+      "source_citation": "Financial Statements — 2"
+    }
+  ],
+  "forward_guidance": {
+    "text": "No forward guidance issued in this filing.",
+    "source_citation": "MD&A"
+  },
+  "key_risks": [
+    {
+      "description": "Amazon faces significant risks related to regulatory scrutiny, intense competition, and evolving compliance requirements for its marketplace sellers, which could adversely impact its financial performance.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "The potential for increased regulatory scrutiny and the challenges posed by compliance requirements for third-party sellers could lead to significant operational disruptions and financial penalties.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Amazon posts solid growth as AWS and AI investments drive momentum",
+      "date": "/",
+      "url": "https://www.digitimes.com/news/a20260430VL202/amazon-aws-growth-advertising-demand.html",
+      "relevance_note": "Highlights AWS and AI investments driving growth."
+    },
+    {
+      "headline": "$200B AI Investment Signals Strong Future for AWS Under Andy Jassy - WORLDEF",
+      "date": "/",
+      "url": "https://worldef.com/2026/04/13/aws-ai-200b-investment/",
+      "relevance_note": "Discusses Amazon's $200 billion AI investment strategy."
+    },
+    {
+      "headline": "Amazon (AMZN) Snuffs Out Investor Hopes for Dividend or Share Buybacks - Bloomberg",
+      "date": "/",
+      "url": "https://www.bloomberg.com/news/articles/2024-04-30/amazon-snuffs-out-investor-hopes-for-dividend-or-share-buybacks",
+      "relevance_note": "Covers Amazon's capital allocation strategy."
+    }
+  ],
+  "bull_case": [
+    "Amazon's aggressive investments in AI and technology infrastructure position it for significant growth, particularly in its AWS segment, which is expected to drive future revenue and market leadership.",
+    "The company's strategic focus on AI infrastructure could provide a cushion against risks, suggesting that the market may underestimate its resilience.",
+    "Amazon's ability to surpass earnings expectations and its strategic focus on AI infrastructure could provide a cushion against the risks highlighted in their filings."
+  ],
+  "bear_case": [
+    "Amazon faces significant risks related to regulatory scrutiny, intense competition, and evolving compliance requirements for its marketplace sellers, which could adversely impact its financial performance.",
+    "The potential for increased regulatory scrutiny and the challenges posed by compliance requirements for third-party sellers could lead to significant operational disruptions and financial penalties.",
+    "The bullish outlook on AMZN's earnings may overlook significant risks, such as rising competition and economic headwinds that could impact AWS growth."
+  ],
+  "what_to_watch": [
+    {
+      "text": "**AWS Growth and AI Investments:** Amazon's AWS segment showed a 28% year-over-year growth, indicating strong performance. The company's $200 billion investment in AI infrastructure is expected to further bolster AWS's capabilities and market position.\n\n-> Monitor AWS revenue growth and any updates on AI infrastructure investments.",
+      "relevant_urls": [
+        "https://worldef.com/2026/04/13/aws-ai-200b-investment/",
+        "https://www.digitimes.com/news/a20260430VL202/amazon-aws-growth-advertising-demand.html"
+      ]
+    },
+    {
+      "text": "**Capital Allocation Strategy:** Despite strong cash flow, Amazon has not prioritized dividends or significant buybacks, reflecting a cautious approach to capital allocation. This suggests a focus on reinvestment rather than returning capital to shareholders.\n\n-> Watch for any changes in capital allocation strategy or announcements regarding dividends or buybacks.",
+      "relevant_urls": [
+        "https://www.bloomberg.com/news/articles/2024-04-30/amazon-snuffs-out-investor-hopes-for-dividend-or-share-buybacks"
+      ]
+    },
+    {
+      "text": "**Regulatory Risks:** Amazon's increasing dominance across verticals may attract antitrust scrutiny, posing a significant risk. The company is also facing challenges related to compliance requirements for its marketplace sellers.\n\n-> Keep an eye on any regulatory developments or compliance challenges that could impact Amazon's operations.",
+      "relevant_urls": [
+        "https://seekingalpha.com/article/4890680-amazon-the-200-billion-risk-that-everyone-is-getting-wrong"
+      ]
+    },
+    {
+      "text": "**E-commerce Performance:** While AWS is a strong growth driver, the e-commerce segment's performance is crucial. The market may be overlooking potential volatility in e-commerce as consumer spending patterns shift.\n\n-> Monitor e-commerce sales figures and any commentary on consumer spending trends.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Market Sentiment and Earnings Expectations:** The consensus bullish outlook may overlook significant strengths in AWS and AI capabilities. However, potential volatility in e-commerce and reliance on AWS for growth could impact overall performance.\n\n-> Pay attention to market reactions post-earnings and any analyst revisions to earnings expectations.",
+      "relevant_urls": [
+        "https://finance.yahoo.com/sectors/technology/article/amazon-q1-revenue-tops-estimates-as-aws-hits-15-quarter-growth-high-132251368.html"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "No forward guidance issued in this filing.",
+    "Lack of detailed commentary on future capital allocation plans."
+  ],
+  "hypotheses_explored": [
+    {
+      "id": "h2",
+      "proposing_personality": "Conservative",
+      "question": "What does the recent news suggest about Amazon's approach to capital allocation amidst its cash flow situation?",
+      "summary": "The news indicates that Amazon is not prioritizing dividends or significant buybacks, which reflects a cautious approach to capital allocation amid declining free cash flow. This suggests a focus on reinvestment rather than returning capital to shareholders.",
+      "evidence_quotes": [
+        "Amazon Snuffs Out Investor Hopes for Dividend or Share Buybacks."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h4",
+      "proposing_personality": "Contrarian",
+      "question": "Is the consensus bullish outlook on AMZN's upcoming earnings call overly optimistic, or are there underappreciated strengths that could support a better-than-expected performance?",
+      "summary": "AMZN's ability to surpass earnings expectations and its strategic focus on AI infrastructure could provide a cushion against the risks highlighted in their filings, suggesting that the market may underestimate its resilience.",
+      "evidence_quotes": [
+        "Traders expect Amazon stock could move close to 7% by the end of the earnings report, indicating strong market confidence."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h5",
+      "proposing_personality": "Dreamer",
+      "question": "How is Amazon's investment in technology and infrastructure expected to impact its long-term growth and competitive positioning in the e-commerce and cloud services markets over the next 5-10 years?",
+      "summary": "Amazon's aggressive investment in technology and infrastructure, particularly in AI and AWS, positions the company to capitalize on future growth opportunities, potentially solidifying its dominance in both e-commerce and cloud services.",
+      "evidence_quotes": [
+        "Amazon is going all-in on AI 💡☁️ CEO Andy Jassy has confirmed plans to invest up to US$200bn in capital expenditure, with the majority directed towards AWS to meet surging demand for AI workloads."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h6",
+      "proposing_personality": "Dreamer",
+      "question": "How is Amazon's investment in technology and infrastructure expected to impact its long-term growth and competitive positioning in the e-commerce and cloud services markets over the next 5-10 years?",
+      "summary": "The $200 billion investment in AI infrastructure signals Amazon's commitment to enhancing its competitive edge, which could lead to increased market share and profitability in key sectors.",
+      "evidence_quotes": [
+        "The $200 Billion Infrastructure Bet: An In-Depth Analysis of Amazon (AMZN) in 2026"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h7",
+      "proposing_personality": "Optimist",
+      "question": "What is the potential for AMZN's growth driven by its AI investments and expansion into new technologies?",
+      "summary": "Amazon's aggressive investments in artificial intelligence and technology infrastructure position it for significant growth, particularly in its AWS segment, which is expected to drive future revenue and market leadership.",
+      "evidence_quotes": [
+        "We expect spending in technology and infrastructure to increase over time as we continue to add infrastructure and employees, including to support our artificial intelligence and machine learning initiatives."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h8",
+      "proposing_personality": "Optimist",
+      "question": "How does AMZN's focus on AI and technology infrastructure impact its competitive advantage?",
+      "summary": "Amazon's substantial investments in AI and technology infrastructure not only enhance its operational capabilities but also solidify its competitive moat in both e-commerce and cloud services, potentially outpacing rivals.",
+      "evidence_quotes": [
+        "We are continuing to rapidly and significantly expand our global operations, including increasing our product and service offerings, scaling our infrastructure to support our retail and services businesses..."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h9",
+      "proposing_personality": "Pessimist",
+      "question": "What are the key risks and challenges that could adversely affect Amazon's financial performance and market position in the near future?",
+      "summary": "Amazon faces significant risks related to regulatory scrutiny, intense competition, and evolving compliance requirements for its marketplace sellers, which could adversely impact its financial performance.",
+      "evidence_quotes": [
+        "Regulatory risk is the primary long-term concern, as AMZN's increasing dominance across verticals may attract antitrust scrutiny"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h10",
+      "proposing_personality": "Pessimist",
+      "question": "What are the key risks and challenges that could adversely affect Amazon's financial performance and market position in the near future?",
+      "summary": "The potential for increased regulatory scrutiny and the challenges posed by compliance requirements for third-party sellers could lead to significant operational disruptions and financial penalties.",
+      "evidence_quotes": [
+        "We are regularly subject to formal and informal reviews, investigations, and other proceedings by governments and regulatory authorities"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h11",
+      "proposing_personality": "Quant",
+      "question": "What are the historical revenue growth rates for Amazon (AMZN) over the past few years, and how might they impact expectations for the upcoming earnings call?",
+      "summary": "Amazon has demonstrated a solid revenue growth trajectory, with consolidated sales increasing by 17% year-over-year in Q1 2026, compared to 9% in Q1 2025. This reflects a significant acceleration in growth, particularly in its AWS segment, which grew by 28% in Q1 2026, up from 17% in the prior year. This upward trend in growth rates may positively influence market expectations for the upcoming earnings call.",
+      "evidence_quotes": [
+        "Sales increased 17% in Q1 2026 compared to the comparable prior year period."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h12",
+      "proposing_personality": "Quant",
+      "question": "What are the historical revenue growth rates for Amazon (AMZN) over the past few years, and how might they impact expectations for the upcoming earnings call?",
+      "summary": "The revenue growth rates for Amazon have shown variability, but the most recent figures indicate a recovery and growth acceleration, particularly in the International segment, which grew 19% in Q1 2026, up from 5% in Q1 2025. This rebound suggests improving demand dynamics, which could lead to optimistic forecasts for the upcoming earnings call.",
+      "evidence_quotes": [
+        "International sales grew by 19% in Q1 2026, compared to 5% in Q1 2025."
+      ],
+      "confidence": 3
+    },
+    {
+      "id": "h3",
+      "proposing_personality": "Contrarian",
+      "question": "Is the consensus bullish outlook on AMZN's upcoming earnings call overly optimistic, or are there underappreciated strengths that could support a better-than-expected performance?",
+      "summary": "Despite the consensus bullish outlook, AMZN's recent earnings report reveals significant strengths that may not be fully appreciated by the market, particularly in its AWS segment and AI capabilities, which could mitigate risks associated with competition and economic conditions.",
+      "evidence_quotes": [
+        "Amazon reported first quarter revenue and earnings per share that topped Wall Street estimates, with AWS posting its fastest growth in 15 quarters as the e-commerce sector rebounds"
+      ],
+      "confidence": 4
+    }
+  ]
+}

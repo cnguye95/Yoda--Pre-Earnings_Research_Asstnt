@@ -964,13 +964,8 @@ def _scrub_source_citations(report: EarningsReport, log_prefix: str) -> None:
 
 def run_personality_panel(
     ticker: str,
-    embedding_provider: str = "openai",
 ) -> tuple[EarningsReport, list[PersonalityResult], list[CritiqueMessage]]:
     """Run the multi-agent personality panel against *ticker*.
-
-    embedding_provider selects which embedding backend feeds the RAG retrieval:
-      "openai" (default) for text-embedding-3-small via API,
-      "qwen"             for the local Qwen3-Embedding-0.6B model.
 
     Returns (report, personality_results, critique_messages).
     """
@@ -1014,13 +1009,13 @@ def run_personality_panel(
 
     # Chunk and embed the filing only when a real filing was found.
     # For news-only runs the ChromaStore stays empty; retrieve_filing returns [].
-    store = ChromaStore(provider=embedding_provider)
+    store = ChromaStore()
     if filing["accession_number"] != f"{ticker}_no_filing":
         chunks = chunk_filing(filing["clean_text"], filing["raw_html"])
-        print(f"{log_prefix} Chunked into {len(chunks)} chunks; embedding via {embedding_provider}...")
+        print(f"{log_prefix} Chunked into {len(chunks)} chunks; embedding...")
         chunk_texts = [c.text for c in chunks]
         t0 = time.perf_counter()
-        embeddings = embed_texts(chunk_texts, provider=embedding_provider)
+        embeddings = embed_texts(chunk_texts)
         embed_tokens += sum(len(t) for t in chunk_texts) // 4
         print(f"{log_prefix} Embedded {len(chunks)} chunks in {time.perf_counter()-t0:.2f}s")
         store.upsert(filing["accession_number"], chunks, embeddings)
@@ -1031,7 +1026,7 @@ def run_personality_panel(
         print(f"{log_prefix} Supplemental: {len(sup_chunks)} chunks; embedding...")
         sup_texts = [c.text for c in sup_chunks]
         t0 = time.perf_counter()
-        sup_embeddings = embed_texts(sup_texts, provider=embedding_provider)
+        sup_embeddings = embed_texts(sup_texts)
         embed_tokens += sum(len(t) for t in sup_texts) // 4
         print(f"{log_prefix} Supplemental embedded in {time.perf_counter()-t0:.2f}s")
         store.upsert(supplemental["accession_number"], sup_chunks, sup_embeddings)
@@ -1041,7 +1036,6 @@ def run_personality_panel(
         primary_accession=filing["accession_number"],
         supplemental_accession=supplemental["accession_number"] if supplemental else None,
         store=store,
-        provider=embedding_provider,
     )
 
     # ------------------------------------------------------------------

@@ -76,21 +76,9 @@ st.title("Yoda — Pre-Earnings Research Assistant")
 st.caption("A multi-agentic tool built for everyone")
 
 
-# ---------------------------------------------------------------------------
-# Embedding provider selector — shared between both tabs.
-# OpenAI uses the text-embedding-3-small API (fast, ~$0.004/filing).
-# Qwen uses a locally-run Qwen3-Embedding-0.6B model (free, no API calls,
-# slightly slower on CPU; ~1.2 GB one-time model download).
-# ---------------------------------------------------------------------------
-
 with st.sidebar:
     st.markdown("### Settings")
-    embedding_choice = st.selectbox(
-        "Embedding model",
-        options=["OpenAI (text-embedding-3-small)", "Qwen (local, free)"],
-        key="embedding_provider_select",
-    )
-    embedding_provider = "qwen" if embedding_choice.startswith("Qwen") else "openai"
+    st.caption("Embeddings: OpenAI text-embedding-3-small")
 
 
 # ---------------------------------------------------------------------------
@@ -158,7 +146,7 @@ with tab_single:
     if generate_clicked:
         try:
             with st.spinner(f"Generating report for {ticker}..."):
-                report, _, _ = run_personality_panel(ticker, embedding_provider=embedding_provider)
+                report, _, _ = run_personality_panel(ticker)
 
             # Persist report in session state so it survives reruns.
             st.session_state["report"] = report
@@ -349,7 +337,6 @@ with tab_queue:
             zip_path, results = process_queue(
                 st.session_state["queue"],
                 on_progress=on_progress,
-                embedding_provider=embedding_provider,
             )
 
             # Read the ZIP into memory so the download_button can serve it.

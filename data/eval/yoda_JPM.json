@@ -1,0 +1,302 @@
+{
+  "ticker": "JPM",
+  "company_name": "JPMorgan Chase & Co.",
+  "filing_type": "10-Q",
+  "filing_date": "2026-05-01",
+  "supplemental_filing_type": "10-K",
+  "supplemental_filing_date": "2026-02-13",
+  "report_generated_at": "2026-05-12T11:24:00.442486+00:00",
+  "key_metrics": [
+    {
+      "name": "Total net revenue",
+      "value": "49,836",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Net income",
+      "value": "16,494",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Basic earnings per share",
+      "value": "5.95",
+      "unit": "USD",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Diluted earnings per share",
+      "value": "5.94",
+      "unit": "USD",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Net interest income",
+      "value": "25,366",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Provision for credit losses",
+      "value": "2,507",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Total noninterest expense",
+      "value": "26,850",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Interest income",
+      "value": "49,191",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Interest expense",
+      "value": "23,825",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Total assets",
+      "value": "4,900,475",
+      "unit": "USD Millions",
+      "source_citation": "Financial Statements"
+    },
+    {
+      "name": "Total liabilities",
+      "value": "4,536,437",
+      "unit": "USD Millions",
+      "source_citation": "Financial Statements"
+    },
+    {
+      "name": "Total equity",
+      "value": "364,038",
+      "unit": "USD Millions",
+      "source_citation": "Other"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Investment banking fees",
+      "revenue": "2,858",
+      "yoy_change": "31.2%",
+      "commentary": "Strong growth in advisory and equity underwriting fees.",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Principal transactions",
+      "revenue": "7,987",
+      "yoy_change": "4.9%",
+      "commentary": "Driven by market volatility and client demand.",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Asset management fees",
+      "revenue": "5,515",
+      "yoy_change": "17.3%",
+      "commentary": "Reflects increased client assets and favorable market conditions.",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Card income",
+      "revenue": "1,190",
+      "yoy_change": "-2.1%",
+      "commentary": "Slight decline due to competitive pressures.",
+      "source_citation": "Other"
+    }
+  ],
+  "forward_guidance": {
+    "text": "No forward guidance issued in this filing.",
+    "source_citation": "MD&A"
+  },
+  "key_risks": [
+    {
+      "description": "JPMorgan Chase faces risks related to its unit economics and off-balance-sheet liabilities, which could negatively impact its financial performance.",
+      "is_new": true,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "The bank's financial health is under pressure due to a significant increase in reserves for bad loans, indicating potential issues in credit quality.",
+      "is_new": true,
+      "source_citation": "MD&A — Risk Factors"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Payments Outlook 2026 Trends Report Released - J.P. Morgan",
+      "date": "",
+      "url": "https://www.jpmorgan.com/payments/newsroom/payments-outlook-2026-trends-report-released",
+      "relevance_note": "Highlights key trends in payments that could impact JPMorgan's growth."
+    },
+    {
+      "headline": "JPMorganChase's profits climb on investment banking surge",
+      "date": "",
+      "url": "https://www.americanbanker.com/news/jpmorganchases-profits-climb-on-investment-banking-surge",
+      "relevance_note": "Discusses the impact of investment banking on JPMorgan's earnings."
+    },
+    {
+      "headline": "JPMorgan Q1 profit drops 70% as it readies for loan defaults",
+      "date": "",
+      "url": "https://www.investmentexecutive.com/news/industry/jpmorgan-1q-profit-drops-70-as-it-readies-for-loan-defaults/",
+      "relevance_note": "Covers the increase in reserves for bad loans and its implications."
+    }
+  ],
+  "bull_case": [
+    "JPMorgan Chase has demonstrated strong growth in investment banking and payments, with investment banking revenue rising 38% year-over-year and payments revenue increasing by 12%. This suggests robust demand and operational strength, positioning the firm for continued success.",
+    "The firm's strategic focus on renewable energy financing and acquisitions, such as the purchase of First Republic Bank, enhances its competitive advantage and positions it for long-term growth.",
+    "JPMorgan's effective management of credit losses and tax benefits, evidenced by a decrease in the provision for credit losses and an improved effective tax rate, indicates strong risk management and profitability."
+  ],
+  "bear_case": [
+    "JPMorgan Chase faces significant risks related to its unit economics and off-balance-sheet liabilities, which could lead to a decline in financial performance. The increased reserve for bad loans signals potential issues in credit quality.",
+    "The bank's capital allocation strategy is under pressure due to high levels of cash used in investing activities, which may hinder its ability to support long-term growth without adjustments.",
+    "Despite strong revenue growth in key segments, the broader economic context and potential regulatory changes could impact future growth, especially in the investment banking sector."
+  ],
+  "what_to_watch": [
+    {
+      "text": "**Investment Banking Performance:** JPMorgan Chase's investment banking revenue rose 38% year-over-year, indicating strong demand and operational strength. This growth is a critical factor for the firm's future success and market positioning. However, potential regulatory changes and market volatility could impact sustainability. \n\n-> Monitor investment banking revenue growth and any regulatory updates affecting this segment.",
+      "relevant_urls": [
+        "https://www.americanbanker.com/news/jpmorganchases-profits-climb-on-investment-banking-surge"
+      ]
+    },
+    {
+      "text": "**Credit Quality and Loan Reserves:** The significant increase in reserves for bad loans suggests potential issues in credit quality. While this may indicate proactive risk management, it also raises concerns about underlying credit risks. \n\n-> Watch for changes in loan reserves and management commentary on credit quality.",
+      "relevant_urls": [
+        "https://www.investmentexecutive.com/news/industry/jpmorgan-1q-profit-drops-70-as-it-readies-for-loan-defaults/"
+      ]
+    },
+    {
+      "text": "**Capital Allocation Strategy:** JPMorgan's high levels of cash used in investing activities could pressure its ability to support long-term growth. The firm's strategy in managing these investments will be crucial for sustaining growth. \n\n-> Focus on cash flow statements and strategic investment disclosures.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Payments Segment Growth:** The payments segment showed a 12% increase in revenue, driven by key trends such as real-time liquidity and AI-powered fraud defense. This growth trajectory is vital for JPMorgan's earnings outlook. \n\n-> Track developments in the payments segment and related technological advancements.",
+      "relevant_urls": [
+        "https://www.jpmorgan.com/payments/newsroom/payments-outlook-2026-trends-report-released"
+      ]
+    },
+    {
+      "text": "**Off-Balance-Sheet Liabilities:** Concerns about off-balance-sheet liabilities could impact JPMorgan's financial health. These liabilities may present hidden risks that need careful monitoring. \n\n-> Examine disclosures related to off-balance-sheet commitments and any changes in risk management strategies.",
+      "relevant_urls": []
+    }
+  ],
+  "data_gaps": [
+    "The filing did not provide specific forward guidance on revenue or earnings expectations for the upcoming quarters."
+  ],
+  "hypotheses_explored": [
+    {
+      "id": "h2",
+      "proposing_personality": "Conservative",
+      "question": "Is JPM's capital allocation strategy disciplined enough to support long-term growth?",
+      "summary": "JPM's capital allocation appears to be under pressure due to high levels of cash used in investing activities, which may hinder its ability to support long-term growth without adjustments to its current strategy.",
+      "evidence_quotes": [
+        "In 2026, cash used resulted from higher securities purchased under resale agreements, net purchases of investment securities and net originations of loans.; In 2025, cash used resulted from net loan originations, net purchases of investment securities and higher securities purchased under resale agreements."
+      ],
+      "confidence": 3
+    },
+    {
+      "id": "h3",
+      "proposing_personality": "Contrarian",
+      "question": "Is JPMorgan Chase's recent performance being underestimated due to its strong growth in investment banking and payment services?",
+      "summary": "Despite the prevailing bearish sentiment, JPMorgan's strong revenue growth in investment banking and payments suggests that it is well-positioned for continued success. The firm's investment banking revenue rose 38% year-over-year, and payments revenue increased by 12%, indicating robust demand and operational strength.",
+      "evidence_quotes": [
+        "\"Investment Banking revenue rose 38% year-over-year, reaching $3,136 million\" (1Q26).; \"Payments revenue increased by 12%, totaling $5,123 million\" (1Q26)."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h4",
+      "proposing_personality": "Contrarian",
+      "question": "Could the market be overlooking JPMorgan's effective management of credit losses and tax benefits that enhance its profitability?",
+      "summary": "The decrease in the provision for credit losses and the improved effective tax rate indicate that JPMorgan is managing risks effectively while benefiting from favorable tax conditions, which could lead to stronger net income than the market anticipates.",
+      "evidence_quotes": [
+        "\"Provision for credit losses decreased to $2,507 million from $4,655 million in the previous quarter\" (1Q26).; \"The effective tax rate decreased to 19.5%, driven by higher tax benefits related to the vesting of employee share-based awards\" (1Q26)."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h5",
+      "proposing_personality": "Dreamer",
+      "question": "What are the potential long-term growth drivers for JPMorgan Chase, and how is the company positioning itself to capitalize on these opportunities over the next 5-10 years?",
+      "summary": "JPMorgan Chase is strategically positioning itself for long-term growth through targeted acquisitions and a strong focus on renewable energy financing, which could enhance its competitive advantage in an evolving market.",
+      "evidence_quotes": [
+        "The 2023 acquisition of First Republic Bank for $10.6 billion perfectly illustrates JPMorgan Chase's core growth strategy: turning market turmoil into a decisive competitive advantage.; JPMorgan Chase's commitment to financing renewable energy projects on a large scale reflects its strategic initiative to align with global sustainability trends and capitalize on the growing demand for green financing."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h6",
+      "proposing_personality": "Dreamer",
+      "question": "How is JPMorgan Chase leveraging its acquisitions to enhance its market position and long-term growth potential?",
+      "summary": "JPMorgan Chase's acquisition of First Republic Bank not only expands its asset base significantly but also reinforces its status as a 'fortress' bank, positioning it to better withstand market fluctuations and capitalize on future opportunities.",
+      "evidence_quotes": [
+        "JPMorgan Chase's acquisition of First Republic underscored its status as the banking system's 'fortress,' adding roughly $200 billion in assets and stabilizing its market position."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h7",
+      "proposing_personality": "Optimist",
+      "question": "What evidence supports the notion that JPMorgan Chase is experiencing sustainable growth in its key business segments, particularly in investment banking and payments, and how might this impact its earnings outlook?",
+      "summary": "JPMorgan Chase is poised for continued growth driven by robust performance in investment banking and a favorable outlook in payments, supported by key trends that enhance its market position.",
+      "evidence_quotes": [
+        "JPMorganChase saw profits climb in the first quarter of 2026, as strong investment banking activity driven by market volatility lifted earnings. (American Banker); In the latest Payments Outlook, J.P. Morgan Payments outlines five key trends shaping the treasury and payments landscape in 2026. (J.P. Morgan Payments)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h8",
+      "proposing_personality": "Optimist",
+      "question": "What evidence supports the notion that JPMorgan Chase is experiencing sustainable growth in its key business segments, particularly in investment banking and payments, and how might this impact its earnings outlook?",
+      "summary": "The combination of a surge in investment banking profits and strategic trends in payments indicates a strong growth trajectory for JPMorgan, enhancing its earnings potential.",
+      "evidence_quotes": [
+        "Explore five trends shaping payments, from real-time liquidity and AI-powered fraud defense to blockchain settlements and personalized experiences. (J.P. Morgan Payments); We expect a year of promise and pressure in 2026, characterized by positive economic growth and higher equity markets. (J.P. Morgan Private Bank)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h10",
+      "proposing_personality": "Pessimist",
+      "question": "What are the specific risks related to JPMorgan Chase's unit economics and off-balance-sheet liabilities that could negatively impact its financial performance in the upcoming earnings call?",
+      "summary": "The bank's financial health is under pressure, with indications of a significant increase in reserves for bad loans and a potential need for further adjustments in its off-balance-sheet commitments. This suggests that JPMorgan may be masking deeper issues in its lending practices and overall risk management.",
+      "evidence_quotes": [
+        "JPMorgan Chase has total assets of $4,900.5B and total equity of $364.0B. Total deposits are $2,675.5B, and total loans are $1,526.4B. It has sufficient allowance for bad loans, which are currently at 0.6% of total loans."
+      ],
+      "confidence": 3
+    },
+    {
+      "id": "h11",
+      "proposing_personality": "Quant",
+      "question": "What is the year-over-year growth in net interest income and total revenue for JPMorgan Chase, and what does this indicate about its financial health?",
+      "summary": "JPMorgan Chase has demonstrated solid year-over-year growth in both net interest income and total revenue, indicating a positive trajectory for the firm's financial health.",
+      "evidence_quotes": [
+        "Net interest income – reported: $25,366 million for Q1 2026, up 9% from $23,273 million in Q1 2025 (retrieve_filing).; Total net revenue was reported at $50.5 billion for Q1 2026, reflecting a 10% growth compared to the previous year (search_news)."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h12",
+      "proposing_personality": "Quant",
+      "question": "How does the growth in net income and revenue for JPMorgan Chase compare to previous years, and what implications does this have for future performance?",
+      "summary": "JPMorgan Chase's net income and revenue growth in Q1 2026 suggests a strong performance compared to previous years, indicating a robust outlook for future earnings.",
+      "evidence_quotes": [
+        "Net income was $16.5 billion for Q1 2026, up 13% year over year (search_news).; Total net revenue was $49.8 billion for Q1 2026, indicating a 10% increase compared to Q1 2025 (search_news)."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h9",
+      "proposing_personality": "Pessimist",
+      "question": "What are the specific risks related to JPMorgan Chase's unit economics and off-balance-sheet liabilities that could negatively impact its financial performance in the upcoming earnings call?",
+      "summary": "JPMorgan Chase is facing significant risks related to deteriorating unit economics and increased off-balance-sheet liabilities, which could lead to a substantial decline in its financial performance. The bank's increased reserve for bad loans signals a worrying trend in credit quality, while its reliance on off-balance-sheet commitments presents hidden risks that may not be fully disclosed.",
+      "evidence_quotes": [
+        "JPMorgan Q1 profit drops 70% as it readies for loan defaults. The New York-based bank put $8.29 billion in reserve to cover potentially bad loans, up from $1.5 billion last year."
+      ],
+      "confidence": 4
+    }
+  ]
+}

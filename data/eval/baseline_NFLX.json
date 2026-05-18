@@ -3,11 +3,20 @@
   "company_name": "Netflix, Inc.",
   "filing_type": "10-Q",
   "filing_date": "2026-04-16",
-  "report_generated_at": "2026-05-11T00:40:03.415766+00:00",
-  "key_metrics": [],
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:53:52.474056+00:00",
+  "key_metrics": [
+    {
+      "name": "Earnings Per Share (EPS)",
+      "value": "0.70",
+      "unit": "USD",
+      "source_citation": "Recent News, public.com"
+    }
+  ],
   "revenue_segments": [],
   "forward_guidance": {
-    "text": "The company aims to grow its business globally within the parameters of its operating margin target, continuously improve member experience, and offer a range of pricing plans, including an ad-supported subscription plan.",
+    "text": "Netflix expects to continue its global growth strategy while maintaining its operating margin target. The company plans to enhance its content offerings and user interface to attract and retain members.",
     "source_citation": "MD&A, Forward-Looking Statements"
   },
   "key_risks": [
@@ -22,61 +31,69 @@
       "source_citation": "MD&A, Forward-Looking Statements"
     },
     {
-      "description": "Risks associated with cybersecurity and intellectual property.",
+      "description": "Risks associated with cybersecurity threats.",
       "is_new": false,
       "source_citation": "MD&A, Forward-Looking Statements"
     }
   ],
   "recent_news": [
     {
-      "headline": "NFLX - Company Earnings Calendar - Yahoo Finance",
+      "headline": "Netflix (NFLX) Earnings: Latest Report, Earnings Call & Financials",
       "date": "",
-      "url": "https://finance.yahoo.com/calendar/earnings?symbol=NFLX",
-      "relevance_note": "Provides information on upcoming financial events for Netflix."
+      "url": "https://public.com/stocks/nflx/earnings",
+      "relevance_note": "Provides details on Netflix's recent earnings report and future earnings expectations."
     },
     {
-      "headline": "Netflix (NFLX) earnings Q1 2026 - CNBC",
+      "headline": "Netflix (NFLX) earnings Q1 2026",
       "date": "",
       "url": "https://www.cnbc.com/2026/04/16/netflix-nflx-earnings-q1-2026.html",
-      "relevance_note": "Reports on Netflix's Q1 2026 earnings and a key governance change."
-    },
-    {
-      "headline": "Netflix Earnings Dates - NFLX - Wall Street Horizon",
-      "date": "",
-      "url": "https://www.wallstreethorizon.com/netflix-earnings-calendar",
-      "relevance_note": "Mentions the unconfirmed date for Netflix's next earnings report."
+      "relevance_note": "Discusses Netflix's Q1 2026 earnings and a significant governance change."
     },
     {
       "headline": "Netflix: NFLX Stock Price Quote & News - Robinhood",
       "date": "",
       "url": "https://robinhood.com/stocks/NFLX",
-      "relevance_note": "Provides current stock price and market capitalization for Netflix."
+      "relevance_note": "Provides current stock price and trading range for Netflix."
     },
     {
-      "headline": "Netflix (NFLX) Earnings: Latest Report, Earnings Call & Financials",
+      "headline": "Netflix, Inc. (NFLX) - Yahoo Finance",
       "date": "",
-      "url": "https://public.com/stocks/nflx/earnings",
-      "relevance_note": "Details Netflix's most recent earnings and future earnings expectations."
+      "url": "https://finance.yahoo.com/quote/NFLX/",
+      "relevance_note": "General financial information and stock performance for Netflix."
+    },
+    {
+      "headline": "Netflix, Inc. Common Stock (NFLX) Earnings Report Date | Nasdaq",
+      "date": "",
+      "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings",
+      "relevance_note": "Mentions Netflix's earnings report date and related financial data."
     }
   ],
-  "consensus": {
-    "eps_estimate": null,
-    "revenue_estimate": null,
-    "next_earnings_date": "2026-07-15",
-    "source": "finnhub"
-  },
   "bull_case": [
-    "Netflix's strategy to offer a range of pricing plans, including ad-supported options, could attract a broader audience and increase subscriber growth."
+    "Netflix's strategy to enhance content offerings and user interface could attract more subscribers and improve retention.",
+    "The company's global growth strategy within its operating margin target may lead to sustainable financial performance."
   ],
   "bear_case": [
-    "Stock price volatility and potential negative impacts from foreign exchange rate fluctuations could affect financial performance."
+    "Foreign exchange rate fluctuations could negatively impact Netflix's net income and revenues.",
+    "Future regulatory changes may pose challenges to Netflix's business operations."
   ],
   "what_to_watch": [
-    "Monitor the impact of Netflix's ad-supported subscription plan on subscriber growth and revenue.",
-    "Keep an eye on regulatory changes that could affect Netflix's operations globally."
+    {
+      "text": "Monitor Netflix's content strategy and user interface enhancements for potential subscriber growth.",
+      "relevant_urls": [
+        "https://public.com/stocks/nflx/earnings",
+        "https://www.cnbc.com/2026/04/16/netflix-nflx-earnings-q1-2026.html"
+      ]
+    },
+    {
+      "text": "Watch for any regulatory changes that could impact Netflix's operations.",
+      "relevant_urls": [
+        "https://public.com/stocks/nflx/earnings",
+        "https://www.cnbc.com/2026/04/16/netflix-nflx-earnings-q1-2026.html"
+      ]
+    }
   ],
   "data_gaps": [
-    "Specific financial figures such as revenue, operating income, and net income for Q1 2026 are not provided in the filing excerpt.",
-    "EPS estimate and revenue estimate are not available in the consensus data."
-  ]
+    "Specific revenue figures for different segments are not provided in the filing excerpt or news items."
+  ],
+  "hypotheses_explored": []
 }

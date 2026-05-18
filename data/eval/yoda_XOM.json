@@ -1,0 +1,293 @@
+{
+  "ticker": "XOM",
+  "company_name": "XOM",
+  "filing_type": "10-Q",
+  "filing_date": "2026-05-04",
+  "supplemental_filing_type": "10-K",
+  "supplemental_filing_date": "2026-02-18",
+  "report_generated_at": "2026-05-12T11:50:48.135416+00:00",
+  "key_metrics": [
+    {
+      "name": "Total revenues and other income",
+      "value": "85,138",
+      "unit": "millions of dollars",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Net income (loss) attributable to ExxonMobil",
+      "value": "4,183",
+      "unit": "millions of dollars",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Earnings per common share",
+      "value": "1.00",
+      "unit": "dollars",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Net cash provided by operating activities",
+      "value": "8,705",
+      "unit": "millions of dollars",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Cash and cash equivalents (at end of period)",
+      "value": "8,435",
+      "unit": "millions of dollars",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Long-term debt",
+      "value": "33,130",
+      "unit": "millions of dollars",
+      "source_citation": "Other"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Upstream",
+      "revenue": "15,043",
+      "yoy_change": "-",
+      "commentary": "Segment revenues and other income for Upstream were $15,043 million.",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Energy Products",
+      "revenue": "32,474",
+      "yoy_change": "-",
+      "commentary": "Energy Products segment showed significant growth, contributing substantially to revenue.",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Chemical Products",
+      "revenue": "3,694",
+      "yoy_change": "-",
+      "commentary": "Chemical Products segment contributed $3,694 million to total revenues.",
+      "source_citation": "Other"
+    },
+    {
+      "name": "Specialty Products",
+      "revenue": "1,872",
+      "yoy_change": "-",
+      "commentary": "Specialty Products segment contributed $1,872 million to total revenues.",
+      "source_citation": "Other"
+    }
+  ],
+  "forward_guidance": {
+    "text": "No forward guidance issued in this filing.",
+    "source_citation": "MD&A"
+  },
+  "key_risks": [
+    {
+      "description": "ExxonMobil's operational performance is at risk due to regulatory challenges and geopolitical tensions, particularly in regions where they operate.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "Increased operating costs and compressed margins could undermine ExxonMobil's financial performance.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Exxon Mobil Corporation (XOM) - Yahoo Finance",
+      "date": "",
+      "url": "https://finance.yahoo.com/quote/XOM/news/",
+      "relevance_note": "ExxonMobil's Q1 revenue exceeded expectations."
+    },
+    {
+      "headline": "Exxon Mobil Corp - AP News",
+      "date": "",
+      "url": "https://apnews.com/hub/exxon-mobil-corp",
+      "relevance_note": "Exxon Mobil is drilling for lithium in Arkansas."
+    },
+    {
+      "headline": "ExxonMobil Faces Regulatory Risks and Operational Challenges | ENERGY STOCK AUTHORITY posted on the topic | LinkedIn",
+      "date": "",
+      "url": "https://www.linkedin.com/posts/energy-stock-authority_your-privacy-choices-activity-7452688169742962689-GDPF",
+      "relevance_note": "ExxonMobil faces regulatory risks and operational challenges."
+    },
+    {
+      "headline": "Exxon Mobil Dividend Under Threat as $60 Oil Forecast Exposes ...",
+      "date": "",
+      "url": "https://www.ainvest.com/news/exxon-mobil-dividend-threat-60-oil-forecast-exposes-thin-coverage-2605/",
+      "relevance_note": "ExxonMobil's dividend sustainability is questioned."
+    },
+    {
+      "headline": "ExxonMobil Q1 2026 earnings fall to $4.2B - Stock Titan",
+      "date": "",
+      "url": "https://www.stocktitan.net/sec-filings/XOM/10-q-exxon-mobil-corp-quarterly-earnings-report-c45422fb2f75.html",
+      "relevance_note": "ExxonMobil's Q1 2026 earnings fell to $4.2B."
+    }
+  ],
+  "bull_case": [
+    "ExxonMobil's strategic investments in low-carbon technologies position it as a leader in the energy transition, potentially enhancing long-term growth and profitability.",
+    "The Energy Products segment has shown significant growth, contributing substantially to revenue, indicating strong segment performance.",
+    "ExxonMobil's diversified operations and trading capabilities may help offset pressures from increased operating costs and compressed margins."
+  ],
+  "bear_case": [
+    "ExxonMobil faces significant regulatory challenges and geopolitical tensions that could impact operational performance and financial results.",
+    "Increased operating costs and compressed margins are significant challenges that could undermine ExxonMobil's financial performance.",
+    "The decline in overall earnings despite segment growth highlights vulnerabilities that could affect future performance."
+  ],
+  "what_to_watch": [
+    {
+      "text": "**Capital Allocation Strategy:** ExxonMobil's capital expenditures are significant, with plans to invest between $27 billion to $29 billion in 2026. This may strain cash flows needed for dividends if operating cash flows do not improve.\n\n-> Monitor capital expenditures and dividend coverage ratios in the upcoming earnings report.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Regulatory and Geopolitical Risks:** ExxonMobil's operational performance is at risk due to regulatory challenges and geopolitical tensions, particularly in regions where they operate.\n\n-> Watch for any updates on regulatory developments and geopolitical tensions affecting ExxonMobil's operations.",
+      "relevant_urls": [
+        "https://www.linkedin.com/posts/energy-stock-authority_your-privacy-choices-activity-7452688169742962689-GDPF"
+      ]
+    },
+    {
+      "text": "**Energy Products Segment Performance:** The Energy Products segment has shown significant growth, contributing substantially to revenue. However, overall earnings have declined due to various negative factors.\n\n-> Focus on the performance of the Energy Products segment and its impact on overall earnings.",
+      "relevant_urls": [
+        "https://www.tikr.com/blog/exxonmobil-q1-2026-earnings-record-refining-qatar-damage-and-an-18-upside-case"
+      ]
+    },
+    {
+      "text": "**Unit Economics and Operating Costs:** ExxonMobil is facing challenges with increased operating costs and compressed margins, which could deteriorate its unit economics.\n\n-> Pay attention to any commentary on cost management strategies and margin improvements.",
+      "relevant_urls": [
+        "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2795885-exxonmobil-optimizing-assets-to-offset-disruptions"
+      ]
+    },
+    {
+      "text": "**Low-Carbon Technology Investments:** ExxonMobil's investments in low-carbon technologies could create new revenue streams that are underestimated by the market.\n\n-> Look for updates on low-carbon technology projects and their potential impact on future revenue.",
+      "relevant_urls": []
+    }
+  ],
+  "data_gaps": [
+    "No forward guidance issued in this filing regarding future revenue or earnings expectations."
+  ],
+  "hypotheses_explored": [
+    {
+      "id": "h2",
+      "proposing_personality": "Conservative",
+      "question": "How does ExxonMobil's capital allocation strategy impact its ability to maintain dividends amidst fluctuating cash flows?",
+      "summary": "ExxonMobil's capital expenditures are significant, and the company plans to invest between $27 billion to $29 billion in 2026, which may strain cash flows needed for dividends if operating cash flows do not improve.",
+      "evidence_quotes": [
+        "Cash capex in the first quarter of 2026 was $6.2 billion, up $0.3 billion from the first quarter of 2025.",
+        "The Corporation plans to invest in the range of $27 billion to $29 billion in 2026.",
+        "Internally generated funds are expected to cover the majority of financial requirements, supplemented by long-term and short-term debt."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h3",
+      "proposing_personality": "Contrarian",
+      "question": "What are the potential under-appreciated strengths or opportunities for ExxonMobil that could lead to a more favorable outlook than what the consensus anticipates?",
+      "summary": "ExxonMobil's recent earnings performance and strategic initiatives suggest that the company may be better positioned than the consensus believes, particularly with its revenue growth and exploration into new markets.",
+      "evidence_quotes": [
+        "ExxonMobil's recent earnings call revealed a Q1 revenue of $85.14 billion, exceeding expectations.",
+        "The company is considering a return to Venezuela, amid...",
+        "Exxon Mobil is drilling for lithium in Arkansas and expects to..."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h4",
+      "proposing_personality": "Contrarian",
+      "question": "What are the potential under-appreciated strengths or opportunities for ExxonMobil that could lead to a more favorable outlook than what the consensus anticipates?",
+      "summary": "ExxonMobil's financial strength and ongoing investments in diverse energy sources suggest resilience and growth potential that the market may be overlooking.",
+      "evidence_quotes": [
+        "Exxon Mobil Corporation today announced fourth-quarter 2025 earnings of $6.5 billion, or $1.53 per share.",
+        "The Corporation plans to invest in the range of $27 billion to $29 billion in 2026."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h5",
+      "proposing_personality": "Dreamer",
+      "question": "What if ExxonMobil's investments in low-carbon technologies position it as a leader in the energy transition over the next decade?",
+      "summary": "ExxonMobil is strategically investing in low-carbon technologies, which could significantly enhance its competitive positioning in the evolving energy landscape. The company's commitment to achieving net-zero emissions by 2050 and its substantial capital expenditures in renewable technologies suggest a proactive approach to sustainability that may yield long-term growth and profitability.",
+      "evidence_quotes": [
+        "The Corporation plans to invest in the range of $27 billion to $29 billion in 2026... included in the 2026 capital spend range is $8.5 billion of firm capital commitments.",
+        "Our emission-reduction plans and 2050 net-zero ambition cover Scope 1 and 2 emissions from assets we operate.",
+        "ExxonMobil’s Low Carbon Solutions business is working with the Product Solutions and Upstream businesses to grow a pipeline of emission-reduction opportunities in carbon capture and storage, hydrogen and ammonia, lower-emission fuels..."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h6",
+      "proposing_personality": "Dreamer",
+      "question": "What if ExxonMobil's focus on carbon capture and lower-emission technologies creates new revenue streams that are underestimated by the market?",
+      "summary": "ExxonMobil's efforts in developing a diverse portfolio of low-carbon solutions, including carbon capture and hydrogen production, could lead to new revenue opportunities that are currently not reflected in market valuations. The company's proactive stance and partnerships in these emerging technologies suggest potential for significant financial returns in a decarbonizing world.",
+      "evidence_quotes": [
+        "Achieving societal ambitions to reduce greenhouse gas emissions... will require new technologies and added infrastructure to reduce the cost and increase the scalability of solutions to reduce emissions, as well as technologies such as carbon capture and storage (CCS).",
+        "The scale of the world’s energy system means that... meeting society's needs for energy and reducing emissions will require appropriate support from governments and private participants throughout the global economy."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h7",
+      "proposing_personality": "Optimist",
+      "question": "What are the key upside catalysts for ExxonMobil's growth in the upcoming earnings call?",
+      "summary": "ExxonMobil is poised for significant growth driven by its advantaged assets, high-value products, and strategic capital projects. The company's focus on lower-emission fuels and advanced materials positions it to benefit from expanding markets and increasing demand for sustainable solutions.",
+      "evidence_quotes": [
+        "Advantaged Volume Growth...includes Permian, Guyana, and LNG.",
+        "Includes capital projects and programs of work that contribute to Energy, Chemical, and/or Specialty Products segments that drive integration of segments/businesses, increase yield of higher value products, or deliver higher than average returns.",
+        "Proxxima TM Resin Systems...designed to drive product substitutions in existing markets and enable expansion into new applications like structural composites and steel substitutes."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h8",
+      "proposing_personality": "Optimist",
+      "question": "How is ExxonMobil addressing the demand for lower-emission fuels and advanced materials?",
+      "summary": "ExxonMobil is actively investing in lower-emission technologies and advanced materials, which are expected to enhance its market position and profitability. The company's commitment to sustainability aligns with growing consumer preferences and regulatory trends, creating a favorable environment for future growth.",
+      "evidence_quotes": [
+        "Plans to reduce future emissions and emissions intensity...to reach Scope 1 and 2 net zero from operated assets by 2050.",
+        "Our future results and ability to grow our business...will depend in part on the success of these research and collaboration efforts and on our ability to adapt...to providing the energy products of the future in a cost-competitive manner."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h10",
+      "proposing_personality": "Pessimist",
+      "question": "Are there regulatory risks that could further impact ExxonMobil's financial performance?",
+      "summary": "ExxonMobil's operational performance is at risk due to regulatory challenges and geopolitical tensions, particularly in regions where they operate. These factors could exacerbate existing financial pressures and lead to further declines in unit economics.",
+      "evidence_quotes": [
+        "ExxonMobil Faces Regulatory Risks and Operational Challenges",
+        "Exxon Mobil, ticker NYSE:XOM, is reporting a 6% hit to production after attacks on assets in Qatar and the UAE linked to Middle East conflict."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h11",
+      "proposing_personality": "Quant",
+      "question": "What is the impact of ExxonMobil's revenue growth on its earnings trajectory?",
+      "summary": "ExxonMobil's revenue growth appears to be under pressure despite a beat on sales estimates, indicating potential challenges in future earnings.",
+      "evidence_quotes": [
+        "ExxonMobil reported first-quarter 2026 net income of $4.2 billion, down from $7.7 billion a year earlier, as unfavorable derivative mark-to-market effects, higher depreciation and Middle East supply disruptions more than offset higher prices, advantaged Upstream volumes and structural cost savings.",
+        "ExxonMobil's Q1 CY2026 revenue was $85.14 billion, which was a 2.4% year-on-year growth and a 6.7% beat against analyst estimates of $79.78 billion."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h12",
+      "proposing_personality": "Quant",
+      "question": "How have specific segments of ExxonMobil contributed to its revenue and earnings in Q1 2026?",
+      "summary": "The Energy Products segment has shown significant growth, contributing substantially to revenue, while overall earnings have declined due to various negative factors.",
+      "evidence_quotes": [
+        "The Energy Products segment was the headline driver, posting $2.8B in earnings for the quarter, up approximately $2B year over year.",
+        "ExxonMobil's Q1 2026 earnings fell to $4.2B, down from $7.7B a year earlier, as unfavorable derivative mark-to-market effects...more than offset higher prices."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h9",
+      "proposing_personality": "Pessimist",
+      "question": "Are ExxonMobil's unit economics deteriorating due to increased operating costs and compressed margins, and how might this impact their financial performance in the upcoming earnings call?",
+      "summary": "ExxonMobil is facing significant challenges that could deteriorate its unit economics, primarily due to compressed margins and increased operating costs. Recent news indicates that operational disruptions and regulatory risks are compounding these issues, which may negatively impact their upcoming earnings performance.",
+      "evidence_quotes": [
+        "Compressed margins decreased earnings by $340 million on lower realizations and increased feed costs.",
+        "We have assets all over the world — we have upstream, downstream, we have a big trading operation, we operate a large long-term charter fleet so we can move feed and we can move a lot of products around to offset disruptions."
+      ],
+      "confidence": 4
+    }
+  ]
+}

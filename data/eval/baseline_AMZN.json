@@ -1,0 +1,118 @@
+{
+  "ticker": "AMZN",
+  "company_name": "Amazon.com, Inc.",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-29",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:19:38.917280+00:00",
+  "key_metrics": [
+    {
+      "name": "Earnings Per Share (EPS)",
+      "value": "2.78",
+      "unit": "USD",
+      "source_citation": "Recent News, Investing.com"
+    },
+    {
+      "name": "Revenue",
+      "value": "181.5",
+      "unit": "Billion USD",
+      "source_citation": "Recent News, Investing.com"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "13.1",
+      "unit": "%",
+      "source_citation": "Recent News, Investing.com"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Cloud Segment (AWS)",
+      "revenue": "37.59",
+      "yoy_change": "28%",
+      "commentary": "AWS reported its fastest growth in more than three years.",
+      "source_citation": "Recent News, CNBC"
+    }
+  ],
+  "forward_guidance": {
+    "text": "Amazon's guidance remains positive, with expectations of continued growth in cloud services and resilience in e-commerce.",
+    "source_citation": "Recent News, Yahoo Finance"
+  },
+  "key_risks": [
+    {
+      "description": "Fluctuations in foreign exchange rates and energy prices.",
+      "is_new": false,
+      "source_citation": "Filing Excerpt, Forward-Looking Statements"
+    },
+    {
+      "description": "Changes in global economic conditions and geopolitical events.",
+      "is_new": false,
+      "source_citation": "Filing Excerpt, Forward-Looking Statements"
+    },
+    {
+      "description": "Resource and supply volatility, including for memory chips.",
+      "is_new": false,
+      "source_citation": "Filing Excerpt, Forward-Looking Statements"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Amazon.com (AMZN) Earnings Date & Report - Investing.com",
+      "date": "",
+      "url": "https://www.investing.com/equities/amazon-com-inc-earnings",
+      "relevance_note": "Provides key financial metrics for Q1 2026."
+    },
+    {
+      "headline": "Amazon.com, Inc. (AMZN) - Yahoo Finance",
+      "date": "",
+      "url": "https://finance.yahoo.com/quote/AMZN/",
+      "relevance_note": "Highlights positive guidance and performance in AWS and e-commerce."
+    },
+    {
+      "headline": "Amazon earnings beat expectations with strong cloud growth - CNBC",
+      "date": "",
+      "url": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html",
+      "relevance_note": "Reports on AWS growth and overall earnings performance."
+    },
+    {
+      "headline": "Amazon.com, Inc. Common Stock (AMZN) Earnings Report Date",
+      "date": "",
+      "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings",
+      "relevance_note": "Mentions earnings report date and related information."
+    },
+    {
+      "headline": "Amazon (AMZN) Earnings: Latest Report, Earnings Call & Financials",
+      "date": "",
+      "url": "https://public.com/stocks/amzn/earnings",
+      "relevance_note": "Details on recent earnings and future projections."
+    }
+  ],
+  "bull_case": [
+    "Amazon's cloud segment (AWS) is experiencing rapid growth, marking its fastest in over three years, which could drive future profitability.",
+    "The company has exceeded earnings expectations significantly, indicating strong operational performance."
+  ],
+  "bear_case": [
+    "Potential risks from global economic conditions and geopolitical events could impact Amazon's operations.",
+    "Resource and supply chain volatility, particularly in memory chips, could affect product availability and costs."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor AWS growth and its impact on overall profitability.",
+      "relevant_urls": [
+        "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html"
+      ]
+    },
+    {
+      "text": "Watch for changes in global economic conditions that could affect Amazon's operations.",
+      "relevant_urls": [
+        "https://finance.yahoo.com/quote/AMZN/"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific revenue figures for segments other than AWS are not provided in the available data.",
+    "Detailed breakdown of e-commerce performance is missing."
+  ],
+  "hypotheses_explored": []
+}

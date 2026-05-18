@@ -1,0 +1,311 @@
+{
+  "ticker": "KO",
+  "company_name": "KO",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-30",
+  "supplemental_filing_type": "10-K",
+  "supplemental_filing_date": "2026-02-20",
+  "report_generated_at": "2026-05-12T11:53:00.538308+00:00",
+  "key_metrics": [
+    {
+      "name": "Net Income Attributable to Shareowners of The Coca-Cola Company",
+      "value": "3,924",
+      "unit": "USD Million",
+      "source_citation": "Other — 4,057"
+    },
+    {
+      "name": "Basic Net Income Per Share",
+      "value": "0.91",
+      "unit": "USD",
+      "source_citation": "Other — 4,057"
+    },
+    {
+      "name": "Diluted Net Income Per Share",
+      "value": "0.91",
+      "unit": "USD",
+      "source_citation": "Other — 4,057"
+    },
+    {
+      "name": "Consolidated Net Income",
+      "value": "3,966",
+      "unit": "USD Million",
+      "source_citation": "Other — 4,057"
+    },
+    {
+      "name": "Net Cash Provided by Operating Activities",
+      "value": "2,021",
+      "unit": "USD Million",
+      "source_citation": "MD&A — 35"
+    },
+    {
+      "name": "Cash and cash equivalents",
+      "value": "10,574",
+      "unit": "USD Million",
+      "source_citation": "Other — 691"
+    },
+    {
+      "name": "Total Cash, Cash Equivalents and Short-Term Investments",
+      "value": "11,083",
+      "unit": "USD Million",
+      "source_citation": "Other — 691"
+    },
+    {
+      "name": "Total Assets",
+      "value": "104,217",
+      "unit": "USD Million",
+      "source_citation": "Other — 691"
+    },
+    {
+      "name": "Total Liabilities",
+      "value": "68,483",
+      "unit": "USD Million",
+      "source_citation": "Other — 691"
+    },
+    {
+      "name": "Total Equity",
+      "value": "35,734",
+      "unit": "USD Million",
+      "source_citation": "Other — 691"
+    },
+    {
+      "name": "Operating Income",
+      "value": "4,630",
+      "unit": "USD Million",
+      "source_citation": "Financial Statements — 43,941"
+    },
+    {
+      "name": "Total net operating revenues",
+      "value": "12,472",
+      "unit": "USD Million",
+      "source_citation": "Financial Statements — 43,941"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Concentrate operations",
+      "revenue": "7,385",
+      "yoy_change": "12%",
+      "commentary": "Increase driven by favorable pricing initiatives and mix.",
+      "source_citation": "Other — Concentrate operations"
+    },
+    {
+      "name": "Finished product operations",
+      "revenue": "5,087",
+      "yoy_change": "12%",
+      "commentary": "Growth supported by strong demand and pricing strategies.",
+      "source_citation": "Other — Concentrate operations"
+    }
+  ],
+  "forward_guidance": {
+    "text": "No forward guidance issued in this filing.",
+    "source_citation": "MD&A"
+  },
+  "key_risks": [
+    {
+      "description": "Foreign currency fluctuations could negatively impact net operating revenues and profitability.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "Reliance on pricing strategies may not be sustainable if consumer price sensitivity increases.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "Potential impairment charges related to joint ventures could affect financial results.",
+      "is_new": false,
+      "source_citation": "Notes — Commitments and Contingencies"
+    },
+    {
+      "description": "Off-balance-sheet liabilities and reliance on derivatives pose financial risks.",
+      "is_new": false,
+      "source_citation": "Notes — Commitments and Contingencies"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Growth Strategy - Coca Cola Investor Relations",
+      "date": "",
+      "url": "https://investors.coca-colacompany.com/about/growth-strategy",
+      "relevance_note": "Discusses Coca-Cola's growth strategy and market opportunities."
+    },
+    {
+      "headline": "Coca-Cola's Story: Can Organic Growth Stay Resilient in 2026?",
+      "date": "",
+      "url": "https://finance.yahoo.com/news/coca-colas-story-organic-growth-165400105.html",
+      "relevance_note": "Analyzes Coca-Cola's growth resilience and market strategies."
+    },
+    {
+      "headline": "Coca-Cola: Buy For The Dividend, Hold For The Upside (Downgrade)",
+      "date": "",
+      "url": "https://seekingalpha.com/article/4890598-coca-cola-buy-for-the-dividend-hold-for-the-upside-downgrade",
+      "relevance_note": "Discusses Coca-Cola's capital allocation and dividend strategy."
+    }
+  ],
+  "bull_case": [
+    "Coca-Cola's strong cash position of $13.8 billion supports its ability to sustain dividend payments and share buyback initiatives, indicating robust financial health.",
+    "The company's focus on innovation and digital transformation positions it well for future growth, particularly in emerging markets.",
+    "Coca-Cola's operating margin improvement to 35.0% suggests enhanced operational efficiency and profitability."
+  ],
+  "bear_case": [
+    "Foreign currency fluctuations and reliance on pricing strategies pose risks to Coca-Cola's revenue growth and profitability.",
+    "Impairment charges related to joint ventures could signal broader issues with asset management and profitability.",
+    "The company's reliance on derivative financial instruments could lead to significant losses if counterparties fail."
+  ],
+  "what_to_watch": [
+    {
+      "text": "**Capital Allocation and Share Buybacks:** Coca-Cola's capital allocation strategy emphasizes debt reduction over aggressive share buybacks, which may limit the scale of future repurchase activities despite sufficient cash flow. However, the company's strong cash position supports its ability to sustain dividend payments and share buyback initiatives.\n\n-> Monitor changes in capital allocation priorities and any updates on share buyback programs.",
+      "relevant_urls": [
+        "https://seekingalpha.com/article/4890598-coca-cola-buy-for-the-dividend-hold-for-the-upside-downgrade"
+      ]
+    },
+    {
+      "text": "**Foreign Currency Impact:** While Coca-Cola has reported strong revenue growth, foreign currency fluctuations remain a significant risk that could undermine future performance. The company expects favorable impacts from currency fluctuations for the full year 2026.\n\n-> Watch for updates on currency hedging strategies and their impact on financial results.",
+      "relevant_urls": [
+        "https://finance.yahoo.com/news/coca-colas-story-organic-growth-165400105.html"
+      ]
+    },
+    {
+      "text": "**Innovation and Market Expansion:** Coca-Cola is focusing on innovation and market expansion to capture growth in emerging markets. This strategy is supported by their ability to adapt to consumer trends and enhance productivity.\n\n-> Track developments in new product offerings and market expansion initiatives.",
+      "relevant_urls": [
+        "https://investors.coca-colacompany.com/about/growth-strategy"
+      ]
+    },
+    {
+      "text": "**Operating Margin Trends:** Coca-Cola's operating margin has improved, suggesting better operational efficiency and profitability. This improvement reflects enhanced profitability after considering selling, general and administrative expenses.\n\n-> Monitor operating margin trends and management commentary on cost control measures.",
+      "relevant_urls": []
+    },
+    {
+      "text": "**Impairment Charges and Asset Management:** Coca-Cola faces potential risks from impairment charges related to joint ventures, which could affect financial results. The company has a history of robust financial performance, which may help absorb these charges.\n\n-> Keep an eye on any announcements regarding impairment charges and their impact on financial statements.",
+      "relevant_urls": []
+    }
+  ],
+  "data_gaps": [
+    "No forward guidance issued in this filing regarding specific revenue or earnings targets for upcoming quarters."
+  ],
+  "hypotheses_explored": [
+    {
+      "id": "h2",
+      "proposing_personality": "Conservative",
+      "question": "Will Coca-Cola's focus on capital allocation impact its ability to execute share buybacks in the near term?",
+      "summary": "Coca-Cola's capital allocation strategy emphasizes debt reduction over aggressive share buybacks, which may limit the scale of future repurchase activities despite sufficient cash flow.",
+      "evidence_quotes": [
+        "Coca-Cola's capital allocation focuses on debt reduction rather than aggressive share repurchases.",
+        "We currently expect 2026 capital expenditures to be approximately $2.2 billion."
+      ],
+      "confidence": 3
+    },
+    {
+      "id": "h3",
+      "proposing_personality": "Contrarian",
+      "question": "Is KO's growth narrative overly optimistic given potential risks and challenges?",
+      "summary": "While KO has reported strong revenue growth, there are underlying risks related to foreign currency fluctuations and reliance on pricing strategies that could undermine future performance.",
+      "evidence_quotes": [
+        "Net operating revenues were $12,472 million, compared to $11,129 million during the three months ended March 28, 2025, an increase of $1,343 million, or 12% (MD&A — Net Operating Revenues).",
+        "...we expect foreign currency exchange rate fluctuations will have a favorable impact on our full year 2026 net operating revenues (MD&A — Gross Profit Margin).",
+        "Management believes gross profit margin provides investors with useful information related to the profitability of our business prior to considering all of the selling, general and administrative expenses and other operating charges incurred (MD&A — Gross Profit Margin)."
+      ],
+      "confidence": 3
+    },
+    {
+      "id": "h5",
+      "proposing_personality": "Dreamer",
+      "question": "What are Coca-Cola's long-term growth strategies and how are they positioned to capitalize on emerging market trends over the next 5-10 years?",
+      "summary": "Coca-Cola is strategically focusing on innovation, market expansion, and leveraging brand power to capture growth in emerging markets. Their long-term growth strategy is supported by their ability to adapt to consumer trends and enhance productivity.",
+      "evidence_quotes": [
+        "Coca-Cola has 'significant opportunity to develop the beverage industry from the ground up' in emerging markets (Growth Strategy - Coca Cola Investor Relations).",
+        "The company emphasizes 'brand power' as a competitive advantage, influencing consumer choices in a way that smaller companies cannot (The Coca-Cola Company’s Competitive Strategies).",
+        "Coca-Cola's organic growth resilience will depend on 'balancing pricing, volume and mix while navigating currency' challenges (Coca-Cola's Story: Can Organic Growth Stay Resilient in 2026?)."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h6",
+      "proposing_personality": "Dreamer",
+      "question": "What are Coca-Cola's long-term growth strategies and how are they positioned to capitalize on emerging market trends over the next 5-10 years?",
+      "summary": "Coca-Cola's long-term growth strategies include a focus on innovation in product offerings and adapting to changing consumer preferences, particularly in digital and e-commerce channels, which are crucial for maintaining market share.",
+      "evidence_quotes": [
+        "Coca-Cola is focused on 'continuously strengthening capabilities in marketing, data analytics, and innovation' to maintain consumer interest and brand loyalty (MD&A - Product safety and quality concerns could negatively affect our business).",
+        "The company aims to 'successfully adapt to the rapidly changing retail landscape, including the rapid growth in digital commerce' (MD&A - Product safety and quality concerns could negatively affect our business)."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h7",
+      "proposing_personality": "Optimist",
+      "question": "What are the key growth opportunities for Coca-Cola in the upcoming quarters, particularly regarding net operating revenue growth and innovation in product offerings?",
+      "summary": "Coca-Cola is poised for significant growth through digital transformation and innovation in product offerings, including expansion into the ready-to-drink alcohol market.",
+      "evidence_quotes": [
+        "Coca-Cola is doubling down on digital transformation, bold innovation and a refreshed leadership vision to fuel its next decade of growth. (Beverage Daily)",
+        "In early 2025, Coca-Cola shifted identity by scaling Red Tree Beverages to enter the ready-to-drink alcohol market, complementing its legacy non-alcoholic portfolio. (MatrixBCG.com)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h8",
+      "proposing_personality": "Optimist",
+      "question": "What are the key growth opportunities for Coca-Cola in the upcoming quarters, particularly regarding net operating revenue growth and innovation in product offerings?",
+      "summary": "Coca-Cola's expansion into new beverage categories and focus on evolving consumer preferences indicate a strong potential for revenue growth.",
+      "evidence_quotes": [
+        "We participate in one of the most dynamic regions for consumer goods worldwide, with rising incomes, expanding households, per capita opportunities, and evolving consumer behaviors. (Coca-Cola FEMSA Investors)",
+        "The Coca-Cola Company has a significant opportunity to develop the beverage industry from the ground up. (Coca-Cola Investor Relations)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h9",
+      "proposing_personality": "Pessimist",
+      "question": "Could KO be facing deterioration in unit economics due to impairment charges and potential losses from joint ventures?",
+      "summary": "KO is at risk of deteriorating unit economics, as evidenced by the significant impairment charges related to a joint venture, which could signal broader issues with profitability and asset management.",
+      "evidence_quotes": [
+        "\"During the three months ended March 28, 2025, the Company recorded an other-than-temporary impairment charge of $25 million related to a joint venture in Latin America.\" (Financial Statements — 25)",
+        "\"We may be required to recognize impairment charges that could materially affect our financial results.\" (Other — 22)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h10",
+      "proposing_personality": "Pessimist",
+      "question": "Is KO's financial stability threatened by off-balance-sheet liabilities and reliance on derivatives?",
+      "summary": "The company appears vulnerable due to its reliance on derivative financial instruments and the potential for significant losses if counterparties fail, which could impact its overall financial health.",
+      "evidence_quotes": [
+        "\"Default by or failure of one or more of our counterparty financial institutions could cause us to incur significant losses.\" (Other — 22)",
+        "\"We assess our noncurrent assets...to determine whether they are impaired and, if they are, we record appropriate impairment charges.\" (Other — 22)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h11",
+      "proposing_personality": "Quant",
+      "question": "What is the trend in Coca-Cola's net operating revenues and operating income over the last fiscal year?",
+      "summary": "Coca-Cola has shown a positive trend in net operating revenues and operating income, indicating potential for future earnings growth.",
+      "evidence_quotes": [
+        "Total net operating revenues increased to $12,731 million for the three months ended April 3, 2026, up from $11,379 million for the three months ended March 28, 2025 (Financial Statements — 43,941).",
+        "Operating income rose to $4,630 million for the three months ended April 3, 2026, compared to $4,053 million for the three months ended March 28, 2025 (MD&A — Operating Income and Operating Margin)."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h12",
+      "proposing_personality": "Quant",
+      "question": "How do Coca-Cola's operating margins compare year-over-year?",
+      "summary": "Coca-Cola's operating margin has improved, suggesting better operational efficiency and profitability.",
+      "evidence_quotes": [
+        "The consolidated operating margin increased to 35.0% for the three months ended April 3, 2026, up from 32.9% for the same period in the previous year (MD&A — Operating Income and Operating Margin).",
+        "This improvement in operating margin reflects enhanced profitability after considering selling, general and administrative expenses (MD&A — Gross Profit Margin)."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h1",
+      "proposing_personality": "Conservative",
+      "question": "Is Coca-Cola's current cash position and free cash flow generation sufficient to sustain its dividend payments and share buyback initiatives over the next 12 months?",
+      "summary": "Coca-Cola appears well-positioned to sustain its dividend payments and share buyback initiatives, supported by a strong cash position and recent increases in dividends and share repurchase programs.",
+      "evidence_quotes": [
+        "The Company’s cash, cash equivalents, short-term investments and marketable securities totaled $13.8 billion as of April 3, 2026.",
+        "Our current capital allocation priorities are as follows: investing wisely to support our business operations, continuing to grow our dividend payment, enhancing our beverage portfolio and capabilities through consumer-centric acquisitions, and using excess cash to repurchase shares over time."
+      ],
+      "confidence": 4
+    }
+  ]
+}

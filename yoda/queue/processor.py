@@ -54,7 +54,6 @@ def _prune_zips(keep: int = 2) -> None:
 def process_queue(
     tickers: list[str],
     on_progress: Callable[[str, str], None] | None = None,
-    embedding_provider: str = "openai",
 ) -> tuple[pathlib.Path, list[dict]]:
     """Run the personality panel sequentially for each ticker.
 
@@ -106,9 +105,7 @@ def process_queue(
         started = time.perf_counter()
         try:
             # Run the panel — the actual heavy lifting.
-            report, _personality_results, _critique = run_personality_panel(
-                ticker, embedding_provider=embedding_provider
-            )
+            report, _personality_results, _critique = run_personality_panel(ticker)
 
             # Fetch the filing once more so we can pass the URL to the PDF
             # for inline citation hyperlinks. fetch_latest_filing is cached

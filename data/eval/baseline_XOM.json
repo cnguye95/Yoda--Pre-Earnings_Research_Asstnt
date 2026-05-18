@@ -1,0 +1,87 @@
+{
+  "ticker": "XOM",
+  "company_name": "Exxon Mobil Corporation",
+  "filing_type": "10-Q",
+  "filing_date": "2026-05-01",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:49:13.655002+00:00",
+  "key_metrics": [
+    {
+      "name": "Earnings Per Share (EPS)",
+      "value": "1.16",
+      "unit": "USD",
+      "source_citation": "Recent News, marketbeat.com"
+    }
+  ],
+  "revenue_segments": [],
+  "forward_guidance": {
+    "text": "ExxonMobil's future plans include ambitions to reach Scope 1 and Scope 2 net zero from operated assets by 2050, and to reach Scope 1 and 2 net zero in integrated Upstream Permian Basin unconventional operated assets by 2035.",
+    "source_citation": "MD&A, Forward-Looking Statements"
+  },
+  "key_risks": [
+    {
+      "description": "Global or regional changes or imbalances in the supply and demand for oil, natural gas, petrochemicals, and feedstocks.",
+      "is_new": false,
+      "source_citation": "MD&A, Forward-Looking Statements"
+    },
+    {
+      "description": "Developments or changes in local, national, or international laws, regulations, taxes, trade sanctions, trade tariffs, or policies affecting ExxonMobil's business.",
+      "is_new": false,
+      "source_citation": "MD&A, Forward-Looking Statements"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "ExxonMobil (XOM) Earnings Date and Reports 2026",
+      "date": "",
+      "url": "https://www.marketbeat.com/stocks/NYSE/XOM/earnings/",
+      "relevance_note": "Reports Q1 2026 earnings with EPS of $1.16, exceeding estimates."
+    },
+    {
+      "headline": "Exxon Mobil (XOM) Earnings: Latest Report, Earnings Call ...",
+      "date": "",
+      "url": "https://public.com/stocks/xom/earnings",
+      "relevance_note": "Confirms Q1 2026 EPS of $1.16 and upcoming earnings report date."
+    },
+    {
+      "headline": "Exxon Mobil Corporation Common Stock (XOM) Earnings Report Date",
+      "date": "",
+      "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings",
+      "relevance_note": "General earnings report information."
+    },
+    {
+      "headline": "What date does Exxon Mobil's (XOM) report Earnings",
+      "date": "",
+      "url": "https://www.zacks.com/stock/research/XOM/earnings-calendar",
+      "relevance_note": "Historical earnings data."
+    },
+    {
+      "headline": "XOM - Company Earnings Calendar - Yahoo Finance",
+      "date": "",
+      "url": "https://finance.yahoo.com/calendar/earnings?symbol=XOM",
+      "relevance_note": "Earnings calendar information."
+    }
+  ],
+  "bull_case": [
+    "ExxonMobil exceeded earnings expectations for Q1 2026, indicating strong financial performance.",
+    "The company's forward-looking plans for carbon reduction and net-zero ambitions could position it favorably in a transitioning energy market."
+  ],
+  "bear_case": [
+    "ExxonMobil faces significant risks from potential changes in global supply and demand dynamics for oil and gas.",
+    "Regulatory changes and international policies could adversely affect ExxonMobil's operations and profitability."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor ExxonMobil's progress towards its net-zero emissions goals and any related technological advancements.",
+      "relevant_urls": [
+        "https://www.marketbeat.com/stocks/NYSE/XOM/earnings/",
+        "https://public.com/stocks/xom/earnings"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific revenue figures for different segments are not provided in the filing excerpt or news items."
+  ],
+  "hypotheses_explored": []
+}

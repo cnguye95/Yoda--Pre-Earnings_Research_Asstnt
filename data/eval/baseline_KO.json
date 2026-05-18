@@ -1,0 +1,92 @@
+{
+  "ticker": "KO",
+  "company_name": "The Coca-Cola Company",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-28",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:51:41.503941+00:00",
+  "key_metrics": [
+    {
+      "name": "Earnings Per Share (EPS)",
+      "value": "0.86",
+      "unit": "USD",
+      "source_citation": "Recent News, public.com, snippet"
+    }
+  ],
+  "revenue_segments": [],
+  "forward_guidance": {
+    "text": "The company is expected to announce its next earnings report on July 21, 2026, with analysts projecting an EPS of $0.93.",
+    "source_citation": "Recent News, public.com, snippet"
+  },
+  "key_risks": [
+    {
+      "description": "The company faces uncertainties and risks related to various economic, political, and regulatory environments, particularly in developing and emerging markets.",
+      "is_new": false,
+      "source_citation": "Item 2, MD&A, paragraph 1"
+    },
+    {
+      "description": "The fair value of the BodyArmor trademark was less than its carrying value, leading to an impairment charge of $960 million. Further impairment may occur if near-term operating results do not meet revised projections or if macroeconomic conditions worsen.",
+      "is_new": true,
+      "source_citation": "Item 2, MD&A, paragraph 3"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Coca-Cola (KO) Earnings: Latest Report, Earnings Call & Financials",
+      "date": "",
+      "url": "https://public.com/stocks/ko/earnings",
+      "relevance_note": "Provides recent earnings per share data and future earnings report date."
+    },
+    {
+      "headline": "What date does Coca-Cola's (KO) report Earnings",
+      "date": "",
+      "url": "https://www.zacks.com/stock/research/KO/earnings-calendar",
+      "relevance_note": "Confirms recent earnings per share and comparison to estimates."
+    },
+    {
+      "headline": "The CocaCola Company (KO) - Earnings History",
+      "date": "",
+      "url": "https://www.alphaquery.com/stock/KO/earnings-history",
+      "relevance_note": "Details on earnings per share and comparison to analyst estimates."
+    },
+    {
+      "headline": "KO Earnings Dates, Upcoming and Historical Coca-Cola Company",
+      "date": "",
+      "url": "https://marketchameleon.com/Overview/KO/Earnings/Earnings-Dates/",
+      "relevance_note": "Provides estimated date for next earnings announcement."
+    },
+    {
+      "headline": "Coca-Cola (KO) Q2 2025 earnings",
+      "date": "",
+      "url": "https://www.cnbc.com/2025/07/22/coca-cola-ko-q2-2025-earnings.html",
+      "relevance_note": "Historical context on earnings performance and forecasts."
+    }
+  ],
+  "bull_case": [
+    "Coca-Cola beat earnings estimates for Q1 2026, indicating strong financial performance.",
+    "The company has a history of strong demand in key markets like Europe, which can offset weaker performance elsewhere."
+  ],
+  "bear_case": [
+    "The impairment charge on the BodyArmor trademark suggests challenges in the sports performance and hydration beverage segment.",
+    "Economic, political, and regulatory risks in developing markets could impact future performance."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor the performance of the BodyArmor trademark and any further impairment charges.",
+      "relevant_urls": [
+        "https://public.com/stocks/ko/earnings"
+      ]
+    },
+    {
+      "text": "Watch for the next earnings report expected around July 21, 2026, for updates on financial performance and guidance.",
+      "relevant_urls": [
+        "https://marketchameleon.com/Overview/KO/Earnings/Earnings-Dates/"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific revenue figures for different segments are not provided in the filing excerpt or news items."
+  ],
+  "hypotheses_explored": []
+}

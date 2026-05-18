@@ -1,6 +1,6 @@
 # Yoda — Pre-Earnings Research Assistant
 
-> **Status:** Phase 10 (multi-agent personality panel) complete. Latest evaluation pits **Baseline**, **Yoda (OpenAI embeddings)**, and **Yoda (Qwen embeddings — free, local)** against each other across a 10-ticker sector-diverse universe. Numbers and a comparison chart are in [`data/eval/summary.md`](data/eval/summary.md) and [`data/eval/comparison.png`](data/eval/comparison.png).
+> **Status:** Phase 10 (multi-agent personality panel) complete. Latest evaluation pits **Baseline** against **Yoda** across a 10-ticker sector-diverse universe. Numbers and a comparison chart are in [`data/eval/summary.md`](data/eval/summary.md) and [`data/eval/comparison.png`](data/eval/comparison.png).
 
 ---
 ## 1. Context, User, and Problem
@@ -17,9 +17,7 @@
 
 ## 2. Solution and Design
 
-Yoda fetches the most recent 10-Q (and, when available within the same 92-day window, the supplemental 10-K) from SEC EDGAR for a given ticker, chunks each filing by section, embeds and indexes them in a local ChromaDB vector store, enriches with analyst consensus and news, and generates a structured `EarningsReport` via a multi-agent personality panel. The report downloads as a PDF; a Queue tab batches multiple tickers and bundles the PDFs into a ZIP.
-
-Users pick an **embedding backend** from the Streamlit sidebar: OpenAI `text-embedding-3-small` (1536-dim, ~$0.004/filing) or a locally-run `Qwen/Qwen3-Embedding-0.6B` (1024-dim, free, ~1.2 GB one-time download). Each backend writes into its own Chroma collection (`filings_openai` vs `filings_qwen`) so the dimension difference never collides.
+Yoda fetches the most recent 10-Q (and, when available within the same 92-day window, the supplemental 10-K) from SEC EDGAR for a given ticker, chunks each filing by section, embeds and indexes them in a local ChromaDB vector store using OpenAI `text-embedding-3-small` (1536-dim, ~$0.004/filing), enriches with analyst consensus and news, and generates a structured `EarningsReport` via a multi-agent personality panel. The report downloads as a PDF; a Queue tab batches multiple tickers and bundles the PDFs into a ZIP.
 
 ### How Yoda Works
 
@@ -35,8 +33,7 @@ Each personality uses three tools: `retrieve_filing` (semantic search across bot
 | Six-personality panel + typed cross-critique | Forces the report to consider divergent lenses (optimism, skepticism, balance-sheet, long-horizon, contrarian, quant) before synthesizing one analyst voice; cross-critique flags contested claims for the watchlist |
 | 10-Q primary + 10-K supplemental ingest | The 10-Q has the freshest quarterly data for pre-earnings; the 10-K supplies annual narrative when both are within the 92-day window |
 | Finnhub consensus with FMP backup | Finnhub free tier is sparse; `yoda/tools/consensus.py` falls back to FMP when Finnhub returns nothing |
-| ChromaDB persistent client, one collection per embedding provider | No native deps on Windows; per-provider collections (`filings_openai`, `filings_qwen`) keep 1536-dim and 1024-dim vectors from colliding |
-| Optional local Qwen embeddings (`Qwen/Qwen3-Embedding-0.6B`) | Zero added API cost; runs on CPU via `sentence-transformers`; selectable from the Streamlit sidebar and as a separate `yoda_qwen` eval mode |
+| ChromaDB persistent client (`filings_openai` collection) | No native deps on Windows; cosine-distance index over 1536-dim OpenAI vectors |
 | `reportlab` for PDF (not weasyprint) | weasyprint requires GTK3/Pango/Cairo native libs on Windows; reportlab is pure Python |
 | Cite-or-skip rule + URL-pool validation | Any uncitable fact goes to `data_gaps`; every news URL and watchlist URL is validated against the investigation's news pool so synthesis cannot fabricate links |
 | Filing-only `source_citation` enforcement | `key_metrics`, `revenue_segments`, `key_risks`, and `forward_guidance` source citations are restricted to filing section labels — a post-synthesis scrubber replaces any leaked news URLs / outlet names with a bare section fallback, and the chunk-heading extractor rejects mid-word fragments so the judge can verify traceability |
@@ -100,7 +97,7 @@ Each personality uses three tools: `retrieve_filing` (semantic search across bot
 app.py (Streamlit — Single ticker + Queue tabs)
     ├── yoda/ingest/edgar.py             # SEC EDGAR fetch + disk cache (10-Q primary + 10-K supplemental)
     ├── yoda/ingest/chunker.py           # section-aware HTML → text chunks
-    ├── yoda/retrieval/                  # text-embedding-3-small OR local Qwen3-Embedding-0.6B + ChromaDB
+    ├── yoda/retrieval/                  # text-embedding-3-small + ChromaDB
     ├── yoda/tools/consensus.py          # Finnhub + FMP backup
     ├── yoda/tools/news.py               # Tavily search
     ├── yoda/modes/personality_panel.py  # Phase 10: 6-personality panel
@@ -135,19 +132,18 @@ By default, `run_eval()` evaluates against a **curated 10-ticker universe** chos
 | CAT | Industrials |
 | PANW | Cybersecurity / SaaS |
 
-Each ticker runs against three modes: `baseline`, `yoda_openai`, `yoda_qwen`. To evaluate a custom set:
+Each ticker runs against two modes: `baseline` and `yoda`. To evaluate a custom set:
 ```bash
 python -m yoda.eval.runner NFLX AAPL JPM  # Custom tickers
 python -m yoda.eval.runner NFLX            # Single ticker (quick test, ~$0.30, 3-5 min)
 ```
 
-**Cost / Latency**: 10 tickers × 3 modes ≈ $3 per full run, 15–20 min. Single ticker is ~$0.30 and 3–5 min for verification.
+**Cost / Latency**: 10 tickers × 2 modes ≈ $1.50 per full run, 25–30 min. Single ticker is ~$0.15 and 2–4 min for verification.
 
 ### Modes Compared
 
 - **`baseline`** — Prompt-only (`yoda/modes/baseline.py`): a single `gpt-4o` call with a manually sliced ~5000-character excerpt from the filing (MD&A preferred, Financial Statements fallback). No RAG, no agent loop. This represents the "just give the LLM a chunk of the filing" approach and sets the lower bound.
-- **`yoda_openai`** — Full personality panel with OpenAI `text-embedding-3-small` for retrieval. Vectors stored in the `filings_openai` Chroma collection.
-- **`yoda_qwen`** — Full personality panel with locally-run `Qwen/Qwen3-Embedding-0.6B` for retrieval. Vectors stored in the `filings_qwen` Chroma collection. Zero embedding API cost; the only OpenAI calls are the personality LLMs and synthesis (identical to `yoda_openai`).
+- **`yoda`** — Full personality panel with OpenAI `text-embedding-3-small` for retrieval. Vectors stored in the `filings_openai` Chroma collection.
 
 ### Rubric
 
@@ -167,9 +163,9 @@ Ten US-listed stocks, one per sector/archetype (see the table above), all with a
 
 ### Results
 
-See [`data/eval/summary.md`](data/eval/summary.md) and [`data/eval/comparison.png`](data/eval/comparison.png) for the latest mean scores across baseline, `yoda_openai`, and `yoda_qwen`. The chart compares all three modes side-by-side on the five rubric dimensions.
+See [`data/eval/summary.md`](data/eval/summary.md) and [`data/eval/comparison.png`](data/eval/comparison.png) for the latest mean scores across baseline and yoda. The chart compares both modes on the five rubric dimensions.
 
-![Mean rubric scores by mode — Baseline vs Yoda (OpenAI) vs Yoda (Qwen)](data/eval/comparison.png)
+![Mean rubric scores by mode — Baseline vs Yoda](data/eval/comparison.png)
 
 
 Full per-ticker results are in [`data/eval/results.csv`](data/eval/results.csv) and [`data/eval/summary.md`](data/eval/summary.md).
@@ -180,7 +176,7 @@ Full per-ticker results are in [`data/eval/results.csv`](data/eval/results.csv) 
 
 ### UI Flow
 
-The app has two tabs: **Single ticker** (interactive, one report at a time) and **Queue (batch)** (paste many tickers, generate overnight, download all PDFs as a ZIP). A shared **sidebar** lets the user pick the embedding backend (OpenAI or Qwen) — the choice applies to both tabs.
+The app has two tabs: **Single ticker** (interactive, one report at a time) and **Queue (batch)** (paste many tickers, generate overnight, download all PDFs as a ZIP).
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -314,8 +310,6 @@ Open [http://localhost:8501](http://localhost:8501), enter a ticker (e.g. `NFLX`
 
 The first run for a ticker fetches and indexes the SEC filings — both the 10-Q (primary) and the 10-K (supplemental) when both are within the 92-day freshness window. Subsequent runs for the same ticker are fast because the filings and ChromaDB index are cached to disk.
 
-> **First Qwen run only:** selecting "Qwen (local, free)" in the sidebar triggers a one-time ~1.2 GB download of the `Qwen/Qwen3-Embedding-0.6B` model into `~/.cache/huggingface/`. Subsequent runs load from cache.
-
 ### Run the Evaluation Harness
 
 ```bash
@@ -377,8 +371,8 @@ yoda/
 │   │   ├── edgar.py                    # ticker -> SEC EDGAR fetch (10-Q primary + 10-K supplemental)
 │   │   └── chunker.py                  # section-aware chunking
 │   ├── retrieval/
-│   │   ├── embeddings.py               # OpenAI text-embedding-3-small + local Qwen3-Embedding-0.6B (provider dispatch)
-│   │   └── vector_store.py             # ChromaDB wrapper — separate collection per provider (filings_openai, filings_qwen)
+│   │   ├── embeddings.py               # OpenAI text-embedding-3-small
+│   │   └── vector_store.py             # ChromaDB wrapper — filings_openai collection
 │   ├── tools/
 │   │   ├── consensus.py                # Finnhub + FMP backup
 │   │   └── news.py                     # Tavily wrapper
@@ -399,7 +393,7 @@ yoda/
 │       └── runner.py                   # batch eval over test tickers
 ├── data/
 │   ├── filings/{TICKER}/               # cached primary + supplemental HTML + latest.json (gitignored)
-│   ├── chroma/                         # ChromaDB persistence — filings_openai + filings_qwen collections (gitignored)
+│   ├── chroma/                         # ChromaDB persistence — filings_openai collection (gitignored)
 │   ├── reports/                        # PDFs written by the Queue processor, 1 per ticker (gitignored)
 │   ├── queue_zips/                     # ZIP bundles from queue runs, max 2 most recent (gitignored)
 │   └── eval/                           # eval outputs: results.csv, summary.md, comparison.png, judge_cache/ (last 2 runs)

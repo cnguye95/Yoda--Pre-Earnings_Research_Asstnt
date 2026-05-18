@@ -1,0 +1,323 @@
+{
+  "ticker": "NVDA",
+  "company_name": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2026-02-25",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:18:40.544964+00:00",
+  "key_metrics": [
+    {
+      "name": "Net income",
+      "value": "120,067",
+      "unit": "USD (in millions)",
+      "source_citation": "Quantitative Disclosures"
+    },
+    {
+      "name": "Net income per share: Basic",
+      "value": "4.93",
+      "unit": "USD",
+      "source_citation": "Quantitative Disclosures"
+    },
+    {
+      "name": "Net income per share: Diluted",
+      "value": "4.90",
+      "unit": "USD",
+      "source_citation": "Quantitative Disclosures"
+    },
+    {
+      "name": "Segment operating income",
+      "value": "139,297",
+      "unit": "USD (in millions)",
+      "source_citation": "Financial Statements"
+    },
+    {
+      "name": "Consolidated income before income tax",
+      "value": "141,450",
+      "unit": "USD (in millions)",
+      "source_citation": "Financial Statements"
+    },
+    {
+      "name": "Cash and cash equivalents",
+      "value": "10,605",
+      "unit": "USD (in millions)",
+      "source_citation": "Financial Statements — Consolidated Balance Sheets"
+    },
+    {
+      "name": "Total revenue",
+      "value": "215,938",
+      "unit": "USD (in millions)",
+      "source_citation": "Financial Statements"
+    },
+    {
+      "name": "Gross margin",
+      "value": "71.1",
+      "unit": "%",
+      "source_citation": "MD&A — Gross Profit and Gross Margin"
+    },
+    {
+      "name": "Net cash provided by operating activities",
+      "value": "102,718",
+      "unit": "USD (in millions)",
+      "source_citation": "Financial Statements — 6,386"
+    },
+    {
+      "name": "Total liabilities",
+      "value": "49,510",
+      "unit": "USD (in millions)",
+      "source_citation": "Financial Statements — Consolidated Balance Sheets"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Data Center",
+      "revenue": "193,737",
+      "yoy_change": "68%",
+      "commentary": "Strong year-on-year growth driven by major platform shifts in accelerated computing and AI.",
+      "source_citation": "Financial Statements — Direct Customers"
+    },
+    {
+      "name": "Compute",
+      "revenue": "162,361",
+      "yoy_change": "N/A",
+      "commentary": "N/A",
+      "source_citation": "Financial Statements — Direct Customers"
+    },
+    {
+      "name": "Networking",
+      "revenue": "31,376",
+      "yoy_change": "N/A",
+      "commentary": "N/A",
+      "source_citation": "Financial Statements — Direct Customers"
+    },
+    {
+      "name": "Gaming",
+      "revenue": "16,042",
+      "yoy_change": "41%",
+      "commentary": "Driven by strong Blackwell demand.",
+      "source_citation": "Financial Statements — Direct Customers"
+    }
+  ],
+  "forward_guidance": {
+    "text": "No forward guidance issued in this filing.",
+    "source_citation": "MD&A"
+  },
+  "key_risks": [
+    {
+      "description": "NVIDIA's reliance on third-party suppliers and intense competition from rivals like AMD could impact its profitability and growth potential.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "NVIDIA's inventory management and accounting practices pose significant risks, with a $4.5 billion charge related to excess inventory and purchase obligations.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    },
+    {
+      "description": "Extended payment terms granted to some customers could impact cash flow and increase bad debt.",
+      "is_new": false,
+      "source_citation": "MD&A — Risk Factors"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Nvidia Stock Soared 239% in 2023, and 1 Wall Street Analyst Says It Could Rise Another 60% This Year | The Motley Fool",
+      "date": "/",
+      "url": "https://www.fool.com/investing/2024/03/20/nvidia-stock-soared-239-in-2023-and-1-wall-street/",
+      "relevance_note": "Highlights Nvidia's strong stock performance and potential for further gains."
+    },
+    {
+      "headline": "Nvidia's Exceptional Performance In 2023: A Strong Indicator Of ...",
+      "date": "/",
+      "url": "https://seekingalpha.com/article/4640520-nvidias-exceptional-performance-in-2023-strong-indicator-of-future-success",
+      "relevance_note": "Discusses Nvidia's growth potential and market opportunities."
+    },
+    {
+      "headline": "AMD Q1 earnings: What the chipmaker's growth could mean for Nvidia",
+      "date": "/",
+      "url": "https://finance.yahoo.com/video/amd-q1-earnings-what-the-chipmakers-growth-could-mean-for-nvidia-204203602.html",
+      "relevance_note": "Explores competition between AMD and Nvidia."
+    },
+    {
+      "headline": "A peak in Nvidia's earnings growth may shift focus to suppliers",
+      "date": "/",
+      "url": "https://www.bloomberg.com/professional/insights/markets/a-peak-in-nvidias-earnings-growth-may-shift-focus-to-suppliers/",
+      "relevance_note": "Analyzes potential supply chain issues for Nvidia."
+    },
+    {
+      "headline": "Nvidia's Financial Folly. Whats going on with $NVDA - Medium",
+      "date": "/",
+      "url": "https://medium.com/@Todds2Pence/nvidias-financial-folly-745ccf595512",
+      "relevance_note": "Raises concerns about Nvidia's financial practices and risks."
+    }
+  ],
+  "bull_case": [
+    "NVIDIA's strong cash position and free cash flow generation provide a solid foundation for its capital allocation strategy, supporting dividends and share buybacks.",
+    "The company's leadership in high-performance GPUs and a robust software ecosystem positions it well to capitalize on the growing demand for AI and accelerated computing solutions.",
+    "NVIDIA has significant long-term growth opportunities in the AI and data center markets, with only 3.26% penetration of its estimated $1 trillion opportunity."
+  ],
+  "bear_case": [
+    "NVIDIA's reliance on third-party suppliers and intense competition from rivals like AMD could impact its profitability and growth potential.",
+    "The company's inventory management and accounting practices pose significant risks, with a $4.5 billion charge related to excess inventory and purchase obligations.",
+    "Extended payment terms granted to some customers could impact cash flow and increase bad debt, potentially affecting financial stability."
+  ],
+  "what_to_watch": [
+    {
+      "text": "**Capital Allocation Strategy:** NVIDIA's strong cash position and free cash flow generation support its capital allocation strategy, including dividends and share buybacks. However, increased operational costs and market fluctuations could challenge the sustainability of this strategy.\n\n-> Monitor changes in cash flow, share repurchase activity, and management's commentary on capital allocation priorities.",
+      "relevant_urls": [
+        "https://www.fool.com/investing/2024/03/20/nvidia-stock-soared-239-in-2023-and-1-wall-street/"
+      ]
+    },
+    {
+      "text": "**Supply Chain and Competition:** NVIDIA's reliance on third-party suppliers and competition from AMD pose risks to its market position. The semiconductor supply chain is under scrutiny, and any disruptions could impact production and profitability.\n\n-> Watch for updates on supply chain stability and competitive dynamics in the semiconductor industry.",
+      "relevant_urls": [
+        "https://finance.yahoo.com/video/amd-q1-earnings-what-the-chipmakers-growth-could-mean-for-nvidia-204203602.html",
+        "https://www.bloomberg.com/professional/insights/markets/a-peak-in-nvidias-earnings-growth-may-shift-focus-to-suppliers/"
+      ]
+    },
+    {
+      "text": "**Inventory Management Risks:** NVIDIA's inventory management practices have led to a significant $4.5 billion charge related to excess inventory. This highlights potential vulnerabilities in financial stability and investor confidence.\n\n-> Keep an eye on inventory levels, management's commentary on inventory strategies, and any further financial charges.",
+      "relevant_urls": [
+        "https://medium.com/@Todds2Pence/nvidias-financial-folly-745ccf595512"
+      ]
+    },
+    {
+      "text": "**AI and Data Center Growth:** NVIDIA is well-positioned to capitalize on the growing demand for AI and data center solutions. The company's leadership in high-performance GPUs and a strong software ecosystem provide a competitive edge.\n\n-> Track developments in AI and data center segments, including new product launches and strategic partnerships.",
+      "relevant_urls": [
+        "https://seekingalpha.com/article/4640520-nvidias-exceptional-performance-in-2023-strong-indicator-of-future-success"
+      ]
+    },
+    {
+      "text": "**Operating Expenses and Margin Pressure:** NVIDIA's operating expenses increased significantly, which could pressure margins despite strong revenue growth. The transition to new product lines may also impact profitability.\n\n-> Monitor operating expense trends, gross margin changes, and management's cost control measures.",
+      "relevant_urls": []
+    }
+  ],
+  "data_gaps": [
+    "No forward guidance issued in this filing regarding future revenue or earnings expectations.",
+    "Lack of detailed segment revenue breakdown for Compute and Networking beyond total figures."
+  ],
+  "hypotheses_explored": [
+    {
+      "id": "h2",
+      "proposing_personality": "Conservative",
+      "question": "Is NVIDIA's capital allocation strategy, particularly regarding share repurchases, sustainable given its recent financial performance?",
+      "summary": "NVIDIA's capital allocation strategy appears sustainable as evidenced by its strong operating cash flow and the substantial authorization for share repurchases, despite increased cash used in financing activities.",
+      "evidence_quotes": [
+        "Cash provided by operating activities increased in fiscal year 2026 compared to fiscal year 2025, due to higher revenue.",
+        "We were authorized, subject to certain specifications, to repurchase up to $58.5 billion of our common stock."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h3",
+      "proposing_personality": "Contrarian",
+      "question": "Could NVDA's reliance on third-party suppliers and intense competition undermine its ability to meet demand and sustain profitability?",
+      "summary": "NVIDIA's strong market position is threatened by its heavy reliance on third-party suppliers and increasing competition from rivals like AMD, which could impact its profitability and growth potential.",
+      "evidence_quotes": [
+        "\"Investors' focus may shift to Nvidia Corp.'s supply chain in the semiconductor manufacturing sector should the US tech behemoth's earnings explosion cool.\" (source: Bloomberg)",
+        "\"The Taiwan-based company, a key supplier to Nvidia (NASDAQ:NVDA) and Apple, said fourth-quarter revenue rose about 26%\" (source: Yahoo Finance)",
+        "\"Every part of that supply chain is under scrutiny, and competition with Nvidia is intensifying\" (source: Yahoo Finance)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h4",
+      "proposing_personality": "Contrarian",
+      "question": "Is the bullish sentiment around NVDA's growth driven by AI and gaming overly optimistic given the competitive landscape?",
+      "summary": "While NVDA is perceived as a leader in AI and gaming, the competitive landscape, especially from AMD and others, suggests that the bullish outlook may overlook significant challenges that could limit growth.",
+      "evidence_quotes": [
+        "\"A peak in Nvidia's earnings growth may shift focus to suppliers\" (source: Bloomberg)",
+        "\"Competition with Nvidia (NVDA) is intensifying\" (source: Yahoo Finance)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h5",
+      "proposing_personality": "Dreamer",
+      "question": "What are the key secular growth opportunities that Nvidia is pursuing, and how might these impact its long-term financial performance and market position?",
+      "summary": "Nvidia is strategically positioned to capitalize on the burgeoning AI market and data center expansion, indicating significant long-term growth potential.",
+      "evidence_quotes": [
+        "Nvidia has only penetrated 3.26% of its estimated $1 trillion opportunity, indicating significant room for growth.",
+        "Nvidia believes that global data center spend will reach $3 trillion to $4 trillion by 2030, up from $600 billion in 2025."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h6",
+      "proposing_personality": "Dreamer",
+      "question": "What are the key secular growth opportunities that Nvidia is pursuing, and how might these impact its long-term financial performance and market position?",
+      "summary": "Nvidia's focus on AI and data centers reflects a robust long-term growth strategy that could significantly enhance its market position and financial results.",
+      "evidence_quotes": [
+        "When it comes to the artificial intelligence (AI) narrative, 'Magnificent Seven' stocks are leading the charge, with Nvidia being a prime example of this trend.",
+        "Nvidia stock just keeps climbing higher, but there are plenty of reasons to believe further gains are on the horizon."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h7",
+      "proposing_personality": "Optimist",
+      "question": "What are the key growth drivers and market opportunities for NVIDIA in the next earnings period, particularly in the context of AI and accelerated computing?",
+      "summary": "NVIDIA is well-positioned to capitalize on the growing demand for AI and accelerated computing solutions, driven by its leadership in high-performance GPUs and a robust software ecosystem.",
+      "evidence_quotes": [
+        "Nvidia's leadership in high-performance GPUs, full-stack software ecosystem, and growing exposure to recurring revenue streams increases our confidence in their growth outlook."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h8",
+      "proposing_personality": "Optimist",
+      "question": "What are the key growth drivers and market opportunities for NVIDIA in the next earnings period, particularly in the context of AI and accelerated computing?",
+      "summary": "The company's strategic focus on expanding its ecosystem and launching new offerings positions it for significant growth in the AI space, despite competitive pressures.",
+      "evidence_quotes": [
+        "Our success depends on our ability to expand the ecosystem for our products and technologies, which includes launching new offerings with new business models including software, services, and cloud solutions."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h9",
+      "proposing_personality": "Pessimist",
+      "question": "What are the potential risks associated with NVIDIA's inventory management and accounting practices that could adversely affect its financial results in the upcoming earnings call?",
+      "summary": "NVIDIA is facing significant risks due to its inventory management and accounting practices, which may lead to financial instability and a loss of investor confidence.",
+      "evidence_quotes": [
+        "NVIDIA has acknowledged a $4.5 billion charge associated with excess inventory and purchase obligations, indicating serious issues with inventory management (Risk Factors — 37).",
+        "Concerns have been raised about 'customers taking longer to pay NVIDIA for their chips' which could further exacerbate cash flow issues (Nvidia Accounting Concerns Spark Investor Anxiety).",
+        "Michael Burry criticized NVIDIA for having 'giant accounting gaps in stock-based compensation,' suggesting potential manipulation of financial results (Michael Burry Nvidia stock-based compensation)."
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h10",
+      "proposing_personality": "Pessimist",
+      "question": "What are the potential risks associated with NVIDIA's inventory management and accounting practices that could adversely affect its financial results in the upcoming earnings call?",
+      "summary": "The combination of extended payment terms, fluctuating operating results, and reliance on critical accounting estimates poses a risk to NVIDIA's financial health and investor confidence.",
+      "evidence_quotes": [
+        "The company granted 'extended payment terms to some customers, particularly during macroeconomic downturns,' which could impact cash flow and increase bad debt (Risk Factors — 37).",
+        "There is a concern about the 'risk of collusion between auditors and management' in the context of NVIDIA's financial practices, raising questions about the integrity of their financial reporting (Nvidia's Financial Folly)."
+      ],
+      "confidence": 5
+    },
+    {
+      "id": "h11",
+      "proposing_personality": "Quant",
+      "question": "What are the expected growth rates and margin trajectories for NVIDIA's reportable segments in the upcoming earnings call?",
+      "summary": "NVIDIA is likely to report continued strong growth in its Compute & Networking and Graphics segments, although gross margins may face pressure due to increased operating expenses and product transitions.",
+      "evidence_quotes": [
+        "\"Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated computing and AI.\" (Risk Factors — Fiscal Year 2026 Summary)",
+        "\"Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal 2027 and beyond.\" (Risk Factors — Fiscal Year 2026 Summary)",
+        "\"Gross margin decreased to 71.1% from 75.0%, reflecting increased operating expenses and product transitions.\" (Risk Factors — Fiscal Year 2026 Summary)"
+      ],
+      "confidence": 4
+    },
+    {
+      "id": "h12",
+      "proposing_personality": "Quant",
+      "question": "How does NVIDIA's operating income growth compare to its revenue growth, and what implications does this have for margins?",
+      "summary": "NVIDIA's operating income is expected to grow at a slower pace than its revenue, indicating potential margin compression as operating expenses rise significantly.",
+      "evidence_quotes": [
+        "\"Operating income was up 60%, which is lower than the revenue growth of 65%.\" (Risk Factors — Fiscal Year 2026 Summary)",
+        "\"Operating expenses increased by 41%, indicating rising costs that could pressure margins going forward.\" (Risk Factors — Fiscal Year 2026 Summary)"
+      ],
+      "confidence": 4
+    }
+  ]
+}

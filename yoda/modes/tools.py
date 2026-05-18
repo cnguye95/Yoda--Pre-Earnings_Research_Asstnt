@@ -41,15 +41,11 @@ class ToolContext:
         primary_accession: str,
         store: ChromaStore,
         supplemental_accession: str | None = None,
-        provider: str = "openai",
     ) -> None:
         self.primary_ticker = primary_ticker
         self.primary_accession = primary_accession
         self.supplemental_accession = supplemental_accession  # 10-K when primary is 10-Q
         self.store = store
-        # Which embedding backend to use for ad-hoc embeddings (e.g. lookup_peer).
-        # Must match the backend used to build `store` so vectors live in the same space.
-        self.provider = provider
 
         # Tracks which peer tickers have already been ingested into the store
         # so a second lookup_peer call for the same peer skips re-ingestion.
@@ -125,7 +121,7 @@ def lookup_peer(ctx: ToolContext, peer_ticker: str, query: str, k: int = 3) -> l
             peer_filing = fetch_latest_filing(peer_ticker)
             peer_chunks = chunk_filing(peer_filing["clean_text"], peer_filing["raw_html"])
             peer_texts = [c.text for c in peer_chunks]
-            peer_embeds = embed_texts(peer_texts, provider=ctx.provider)
+            peer_embeds = embed_texts(peer_texts)
             ctx.store.upsert(peer_filing["accession_number"], peer_chunks, peer_embeds)
             ctx._ingested_peers[peer_ticker] = peer_filing["accession_number"]
 

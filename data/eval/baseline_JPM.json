@@ -1,0 +1,113 @@
+{
+  "ticker": "JPM",
+  "company_name": "JPMorgan Chase & Co.",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-14",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:21:52.484974+00:00",
+  "key_metrics": [
+    {
+      "name": "EPS",
+      "value": "5.94",
+      "unit": "USD",
+      "source_citation": "Investing.com, snippet"
+    },
+    {
+      "name": "Revenue",
+      "value": "50.5",
+      "unit": "Billion USD",
+      "source_citation": "Investing.com, snippet"
+    },
+    {
+      "name": "Net Income",
+      "value": "16.5",
+      "unit": "Billion USD",
+      "source_citation": "Investing.com, snippet"
+    },
+    {
+      "name": "ROTCE",
+      "value": "23",
+      "unit": "%",
+      "source_citation": "Investing.com, snippet"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Fixed Income Trading",
+      "revenue": "Not specified",
+      "yoy_change": "21%",
+      "commentary": "Rising activity in commodities, credit, currencies, and emerging markets.",
+      "source_citation": "CNBC, snippet"
+    }
+  ],
+  "forward_guidance": {
+    "text": "JPMorgan Chase lowered its guidance for full-year 2026 net interest income from $104.5 billion to about $103 billion.",
+    "source_citation": "CNBC, snippet"
+  },
+  "key_risks": [
+    {
+      "description": "Increasingly complex economic risks flagged by CEO Jamie Dimon.",
+      "is_new": true,
+      "source_citation": "CNBC, snippet"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "JPMorgan Chase (JPM) earnings 1Q 2026 - CNBC",
+      "date": "",
+      "url": "https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html",
+      "relevance_note": "Discusses JPMorgan's earnings performance and economic risks."
+    },
+    {
+      "headline": "JPMorgan (JPM) Earnings Date & Report",
+      "date": "",
+      "url": "https://www.investing.com/equities/jp-morgan-chase-earnings",
+      "relevance_note": "Provides detailed financial metrics for Q1 2026."
+    },
+    {
+      "headline": "Investor Relations - JPMorganChase",
+      "date": "",
+      "url": "https://www.jpmorganchase.com/ir",
+      "relevance_note": "Links to official earnings documents."
+    },
+    {
+      "headline": "Earnings To Watch: JPMorgan Chase (JPM) Reports Q1 Results Tomorrow",
+      "date": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-jpmorgan-chase-jpm-102001693.html",
+      "relevance_note": "Mentions upcoming earnings report."
+    },
+    {
+      "headline": "JP Morgan Chase & Co. Common Stock (JPM) Earnings Report Date | Nasdaq",
+      "date": "",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jpm/earnings",
+      "relevance_note": "Mentions earnings report date."
+    }
+  ],
+  "bull_case": [
+    "JPMorgan Chase beat Wall Street expectations for revenue and earnings per share, indicating strong financial performance.",
+    "Fixed income trading revenue increased by 21%, driven by rising activity in commodities, credit, currencies, and emerging markets."
+  ],
+  "bear_case": [
+    "JPMorgan Chase lowered its guidance for full-year 2026 net interest income, which could indicate potential challenges in maintaining previous income levels.",
+    "CEO Jamie Dimon highlighted increasingly complex economic risks, which could impact future performance."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor changes in net interest income guidance and its impact on overall earnings.",
+      "relevant_urls": [
+        "https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html"
+      ]
+    },
+    {
+      "text": "Watch for developments in fixed income trading activities and their contribution to revenue.",
+      "relevant_urls": [
+        "https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific revenue figures for fixed income trading were not provided in the news or filing excerpt."
+  ],
+  "hypotheses_explored": []
+}

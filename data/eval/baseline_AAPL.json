@@ -1,0 +1,81 @@
+{
+  "ticker": "AAPL",
+  "company_name": "Apple Inc.",
+  "filing_type": "10-Q",
+  "filing_date": "2026-05-12",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:15:16.731094+00:00",
+  "key_metrics": [],
+  "revenue_segments": [],
+  "forward_guidance": {
+    "text": "The Company expects supply constraints and increasing costs for components to intensify, which may materially adversely affect demand for the Company’s products and negatively impact the Company’s revenue, costs, gross margin, results of operations and financial condition.",
+    "source_citation": "MD&A, Macroeconomic Conditions"
+  },
+  "key_risks": [
+    {
+      "description": "Supply constraints and increasing costs for components, including advanced semiconductors, storage (NAND) and memory (DRAM), may materially adversely affect demand for the Company’s products and negatively impact the Company’s revenue, costs, gross margin, results of operations and financial condition.",
+      "is_new": false,
+      "source_citation": "MD&A, Macroeconomic Conditions"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "EARNINGS ALERT: AAPL - YouTube",
+      "date": "",
+      "url": "https://www.youtube.com/watch?v=hNs-Udpr2dk",
+      "relevance_note": "Apple posted another earnings beat with significant iPhone sales and revenue from China."
+    },
+    {
+      "headline": "Apple (AAPL) Earnings: Latest Report, Earnings Call & Financials",
+      "date": "",
+      "url": "https://public.com/stocks/aapl/earnings",
+      "relevance_note": "Apple reported Q2 2026 earnings with EPS of $2.01."
+    },
+    {
+      "headline": "Apple Inc. (AAPL) Stock Earnings Call Transcripts - Yahoo Finance",
+      "date": "",
+      "url": "https://finance.yahoo.com/quote/AAPL/earnings-calls/",
+      "relevance_note": "Provides access to Apple's earnings call transcripts."
+    },
+    {
+      "headline": "Apple Earnings Date, Report, Conference Call, Forecasted Dates (AAPL)",
+      "date": "",
+      "url": "https://www.wallstreethorizon.com/apple-earnings-calendar",
+      "relevance_note": "Forecasts Apple's next earnings date as July 30, 2026."
+    },
+    {
+      "headline": "What date does Apple's (AAPL) report Earnings",
+      "date": "",
+      "url": "https://www.zacks.com/stock/research/AAPL/earnings-calendar",
+      "relevance_note": "Discusses Apple's earnings reporting schedule."
+    }
+  ],
+  "bull_case": [
+    "Apple continues to post earnings beats, indicating strong financial performance.",
+    "Significant iPhone sales and revenue from China contribute positively to Apple's financial results."
+  ],
+  "bear_case": [
+    "Supply constraints and increasing component costs could negatively impact Apple's revenue and margins.",
+    "Macroeconomic conditions such as inflation and currency fluctuations pose risks to Apple's financial performance."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor the impact of supply constraints and component cost increases on Apple's product demand and financial performance.",
+      "relevant_urls": [
+        "https://www.youtube.com/watch?v=hNs-Udpr2dk",
+        "https://public.com/stocks/aapl/earnings"
+      ]
+    },
+    {
+      "text": "Keep an eye on Apple's product launches and their reception in the market, especially the new iPad Air, iPhone 17e, and MacBook models.",
+      "relevant_urls": [
+        "https://www.youtube.com/watch?v=hNs-Udpr2dk"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific financial figures such as revenue, net income, or detailed segment performance are not provided in the filing excerpt or news items."
+  ],
+  "hypotheses_explored": []
+}

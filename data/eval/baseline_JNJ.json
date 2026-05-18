@@ -1,0 +1,120 @@
+{
+  "ticker": "JNJ",
+  "company_name": "Johnson & Johnson",
+  "filing_type": "10-Q",
+  "filing_date": "2026-04-14",
+  "supplemental_filing_type": null,
+  "supplemental_filing_date": null,
+  "report_generated_at": "2026-05-12T11:24:56.349803+00:00",
+  "key_metrics": [
+    {
+      "name": "Worldwide Sales",
+      "value": "$24.1 billion",
+      "unit": "USD",
+      "source_citation": "MD&A, Results of operations, paragraph 1"
+    },
+    {
+      "name": "Operational Growth",
+      "value": "6.4%",
+      "unit": "Percentage",
+      "source_citation": "MD&A, Results of operations, paragraph 1"
+    },
+    {
+      "name": "Currency Impact",
+      "value": "3.5%",
+      "unit": "Percentage",
+      "source_citation": "MD&A, Results of operations, paragraph 1"
+    },
+    {
+      "name": "U.S. Sales",
+      "value": "$13.3 billion",
+      "unit": "USD",
+      "source_citation": "MD&A, Results of operations, paragraph 2"
+    },
+    {
+      "name": "International Sales",
+      "value": "$10.7 billion",
+      "unit": "USD",
+      "source_citation": "MD&A, Results of operations, paragraph 3"
+    }
+  ],
+  "revenue_segments": [
+    {
+      "name": "Innovative Medicine",
+      "revenue": "$15.4 billion",
+      "yoy_change": "11.2%",
+      "commentary": "Growth driven by oncology and neuroscience, offset by decline in STELARA sales.",
+      "source_citation": "MD&A, Analysis of sales by business segments, paragraph 1"
+    }
+  ],
+  "forward_guidance": {
+    "text": "Johnson & Johnson raised its full-year forecast for 2026.",
+    "source_citation": "Recent News, \"J&J tops first-quarter profit estimates even as Stelara sales plunge\", CNBC"
+  },
+  "key_risks": [
+    {
+      "description": "Decline in STELARA sales due to biosimilar competition.",
+      "is_new": false,
+      "source_citation": "MD&A, Results of operations, paragraph 1"
+    }
+  ],
+  "recent_news": [
+    {
+      "headline": "Johnson & Johnson (JNJ) Earnings Date and Reports 2026",
+      "date": "",
+      "url": "https://www.marketbeat.com/stocks/NYSE/JNJ/earnings/",
+      "relevance_note": "Provides information on JNJ's earnings report and conference call."
+    },
+    {
+      "headline": "J&J tops first-quarter profit estimates even as Stelara sales plunge",
+      "date": "",
+      "url": "https://www.cnbc.com/2026/04/14/johnson-and-johnson-jnj-earnings-q1-2026.html",
+      "relevance_note": "Highlights J&J's earnings beat and raised forecast despite Stelara sales decline."
+    },
+    {
+      "headline": "J&J (JNJ) Earnings Date & Report - Investing.com",
+      "date": "",
+      "url": "https://www.investing.com/equities/johnson-johnson-earnings",
+      "relevance_note": "Reports on J&J's earnings surprise and stock price change."
+    },
+    {
+      "headline": "Financials - Quarterly results - investor.jnj.com",
+      "date": "",
+      "url": "https://www.investor.jnj.com/financials/quarterly-results/default.aspx",
+      "relevance_note": "Provides access to J&J's financial results and investor information."
+    },
+    {
+      "headline": "Johnson & Johnson reports Q1 2026 results, raises 2026 outlook",
+      "date": "",
+      "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q1-2026-results-raises-2026-outlook/default.aspx",
+      "relevance_note": "Announces J&J's Q1 2026 results and updated outlook."
+    }
+  ],
+  "bull_case": [
+    "Strong performance in oncology and neuroscience segments, particularly with drugs like DARZALEX and SPRAVATO.",
+    "Positive currency impact boosting international sales."
+  ],
+  "bear_case": [
+    "Significant decline in STELARA sales due to biosimilar competition.",
+    "Potential over-reliance on a few high-performing drugs to offset declines in other areas."
+  ],
+  "what_to_watch": [
+    {
+      "text": "Monitor the impact of biosimilar competition on STELARA and other key drugs.",
+      "relevant_urls": [
+        "https://www.cnbc.com/2026/04/14/johnson-and-johnson-jnj-earnings-q1-2026.html"
+      ]
+    },
+    {
+      "text": "Track the performance of new acquisitions like CAPLYTA and their contribution to sales growth.",
+      "relevant_urls": [
+        "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q1-2026-results-raises-2026-outlook/default.aspx"
+      ]
+    }
+  ],
+  "data_gaps": [
+    "Specific EPS figures for Q1 2026 are not provided in the filing excerpt.",
+    "Detailed breakdown of sales by geographic region in billions is missing."
+  ],
+  "hypotheses_explored": []
+}
