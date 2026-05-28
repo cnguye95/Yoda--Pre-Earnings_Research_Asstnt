@@ -1,7 +1,5 @@
 # Yoda — Pre-Earnings Research Assistant
 
-> **Status:** Phase 10 (multi-agent personality panel) complete. Latest evaluation pits **Baseline** against **Yoda** across a 10-ticker sector-diverse universe. Numbers and a comparison chart are in [`data/eval/summary.md`](data/eval/summary.md) and [`data/eval/comparison.png`](data/eval/comparison.png).
-
 ---
 ## 1. Context, User, and Problem
 
