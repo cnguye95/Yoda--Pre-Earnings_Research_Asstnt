@@ -1,0 +1,47 @@
+QUESTIONS:
+What embedding model does Yoda use?
+What is the encoder/decoder?
+
+Add Offline Mode
+1. Add Ollama to act as free + offline mode
+2. User should be able to choose Ollama or ChatGPT as LLM before searching a ticker
+3. Add instructions to download Ollama to README
+
+
+Improve Report Content
+1. Add implied volatility, expectations, and whisper number discourse
+
+Improve Retrieval Quality:
+1. better chunking - recursive/semantic chunking instead of fixed splits
+2. Dense and sparse retrieval.Does ChromaDB already support this?
+
+Fine-Tune Embedding Model to SEC Filings + Stock/Financial news
+1. Implement contrastive learning
+    1. Train embedding model on contrastive pairs (query, relevant chunk) that are close in vector space
+        1. also train on opposite pairs (query, irrelevant chunk) that should be far 
+*** REQUIREMENTS:
+1. dataset of financial queries + relevant SEC/news passages
+2. base model to fine-tune (e.g. sentence-transformers on HuggingFace)
+3. a GPU 
+
+Fine-Tune Transformer Model to SEC Filings + Stock/Financial news
+1. implement q-lora or LoRA (low-rank adaptation) fine-tuning
+** Note: q-LoRA is probably better for the limited hardware set-up
+** REQUIREMENTS:
+1. large, high-quality dataset of financial reasoning examples (analyst reports, earnings call Q&As, structured chain-of-thought filings)
+
+
+
+Improve Chunking System
+1. Weigh chunks based on contextual importance
+2. run cross-encoder reranker on retrieved chunks before passing to decoder
+
+Agentic Depth;
+1. Verify ReAct loop is in place
+2. Give Yoda tools: live price fetch, earnings calendar lookup, news search
+    2. Does Yoda have any of these already? Does Yoda have other tools?
+3. Add memory across sessions to recall prior research on a ticker
+
+Evaluation:
+1. Create legitimate, benchmark dataset, 20-30 question/answer pairs grounded in real filings.
+2. 
