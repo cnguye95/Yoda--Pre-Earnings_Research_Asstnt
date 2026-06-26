@@ -13,6 +13,20 @@
 
 ---
 
+## The `/research` Command (Dev Tool)
+
+This repo ships a project-level Claude Code slash command at `.claude/commands/research.md`. It speeds up high-quality learning while coding and counters shallow research by running a fixed 5-pass routine: (1) define the core concepts, (2) web-search to map the field then fetch and read the real pages (not just snippets), (3) lay out the main approaches and what distinguishes them, (4) weigh realistic options against *this* repo by reading PLAN.md / README and the relevant code, and (5) output a comparison table plus a short list of open questions. It deliberately stops there — no single recommendation, no implementation plan.
+
+**Usage:** inside a Claude Code session in this repo, run:
+
+```
+/research <topic or question>
+```
+
+Example: `/research local embedding models to replace text-embedding-3-small`
+
+---
+
 ## 2. Solution and Design
 
 Yoda fetches the most recent 10-Q (and, when available within the same 92-day window, the supplemental 10-K) from SEC EDGAR for a given ticker, chunks each filing by section, embeds and indexes them in a local ChromaDB vector store using OpenAI `text-embedding-3-small` (1536-dim, ~$0.004/filing), enriches with analyst consensus and news, and generates a structured `EarningsReport` via a multi-agent personality panel. The report downloads as a PDF; a Queue tab batches multiple tickers and bundles the PDFs into a ZIP.
@@ -395,6 +409,7 @@ yoda/
 │   ├── reports/                        # PDFs written by the Queue processor, 1 per ticker (gitignored)
 │   ├── queue_zips/                     # ZIP bundles from queue runs, max 2 most recent (gitignored)
 │   └── eval/                           # eval outputs: results.csv, summary.md, comparison.png, judge_cache/ (last 2 runs)
+├── .claude/commands/research.md        # project-level /research slash command (dev tool)
 ├── .claude/worktrees/                  # working trees from /worktree development (gitignored)
 └── tests/
     └── test_smoke.py
