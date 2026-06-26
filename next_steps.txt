@@ -5,7 +5,15 @@ What is the encoder/decoder?
 Add Offline Mode
 1. Add Ollama to act as free + offline mode
 2. User should be able to choose Ollama or ChatGPT as LLM before searching a ticker
-3. Add instructions to download Ollama to README
+3. Add instructions to download Ollama to README:
+
+--------------Instructions Example: ------------------
+1. Install Ollama at link <url>
+Run ollama pull <whatever model they want>
+Set OLLAMA_MODEL to that model name in the config
+
+"We recommend gemma4 for most users. Requires ~12GB disk space and runs on CPU if no GPU is available."
+-----------------------------
 
 
 Improve Report Content
@@ -30,6 +38,9 @@ Fine-Tune Transformer Model to SEC Filings + Stock/Financial news
 ** REQUIREMENTS:
 1. large, high-quality dataset of financial reasoning examples (analyst reports, earnings call Q&As, structured chain-of-thought filings)
 
+Create Master Repo txt File:
+1. Contains detailed description and explanation of each file 
+2. Contains all relationships with other files
 
 
 Improve Chunking System
@@ -44,4 +55,42 @@ Agentic Depth;
 
 Evaluation:
 1. Create legitimate, benchmark dataset, 20-30 question/answer pairs grounded in real filings.
-2. 
+
+
+Sub-Agents:
+1. Build MCP to give subagents with diff personalities access to different tools?
+    1. E.g. bear agent should only access risk and macro data, while your momentum agent 
+    gets price and flow data
+
+Sub-Vector DB:
+
+1. Maybe creating a smaller vector DB would help speed things up?
+Ex: Ingests all information of a stock from SEC Edgar and then move to 
+Yoda's own DB to more easily parse information via RAG. 
+2. What type of RAG is needed?
+
+
+Run Review:
+
+1. Read README
+
+2. Do average-level review of repo
+
+3. 
+Ask claude to run a deep-clean review of repo so i have a full understanding
+of the repo itself. Act as if I know nothing. I want a full understanding because
+I realize that I rushed through the creation of Yoda without thinking through the pipeline,
+or finer details. I want a complete and specific udnerstanding of everything so I 
+can modify and add governance, security, rework agentic swarm, evaluation, toolset,
+repo structure, etc. Treat this as a once-in-a-decade deep clean for a house, not 
+just calling the maids to come clean. 
+
+Note: it is important that Yoda has solid fundamentals. We must also ensure that the agent is not overcomplicated, has a stop condition, and has guardrails.
+We should check to make sure each part of the pipeline is necessary for the envisioned product. 
+
+I want to move forward with development, but first want a solid understanding of what 
+I have built.
+
+Note that I am completely open to getting rid of sections of the current Yoda pipeline to create something better. 
+We are not scared to rebuild things, because an improved and rebuilt end product is better than a version that took
+shortcuts.
