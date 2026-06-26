@@ -10,6 +10,8 @@ venv/
 data/eval/judge_cache/
 data/reports/
 data/queue_zips/
-.claude/
+.claude/**
+!.claude/commands/
+!.claude/commands/research.md
 PLAN.md
 CLAUDE.md

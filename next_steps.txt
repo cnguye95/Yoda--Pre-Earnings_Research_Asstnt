@@ -55,6 +55,8 @@ Agentic Depth;
 
 Evaluation:
 1. Create legitimate, benchmark dataset, 20-30 question/answer pairs grounded in real filings.
+2. Consider comparing with simple 2-agent (bull-bear) baselines
+3. 
 
 
 Sub-Agents:
