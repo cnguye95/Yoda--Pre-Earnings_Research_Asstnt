@@ -3,7 +3,7 @@ What embedding model does Yoda use?
 What is the encoder/decoder?
 
 Add Offline Mode
-1. Add Ollama to act as free + offline mode
+1. Add Ollama + Qwen to act as free + offline mode
 2. User should be able to choose Ollama or ChatGPT as LLM before searching a ticker
 3. Add instructions to download Ollama to README:
 
