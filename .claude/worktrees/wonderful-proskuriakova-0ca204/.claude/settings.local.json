@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(export PATH=\"/c/Program Files/GitHub CLI:$PATH\")",
-      "Read(//c/Users/Calis/OneDrive/Documents/Yoda/**)",
-      "Bash(gh auth *)"
-    ]
-  }
-}
