@@ -22,7 +22,7 @@ just calling the maids to come clean.
 IDEAS for Improvements/Changes
 
 - Add Offline Mode
-1. Use Ollama or Qwen?
+1. Use Ollama, Qwen or Kimi?
 
 - Improve Report Content:
 1. Add implied volatility, expectations, and whisper number discourse
