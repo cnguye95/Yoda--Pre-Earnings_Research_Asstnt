@@ -1,77 +1,3 @@
-QUESTIONS:
-What embedding model does Yoda use?
-What is the encoder/decoder?
-
-Add Offline Mode
-1. Add Ollama + Qwen to act as free + offline mode
-2. User should be able to choose Ollama or ChatGPT as LLM before searching a ticker
-3. Add instructions to download Ollama to README:
-
---------------Instructions Example: ------------------
-1. Install Ollama at link <url>
-Run ollama pull <whatever model they want>
-Set OLLAMA_MODEL to that model name in the config
-
-"We recommend gemma4 for most users. Requires ~12GB disk space and runs on CPU if no GPU is available."
------------------------------
-
-
-Improve Report Content
-1. Add implied volatility, expectations, and whisper number discourse
-
-Improve Retrieval Quality:
-1. better chunking - recursive/semantic chunking instead of fixed splits
-2. Dense and sparse retrieval.Does ChromaDB already support this?
-
-Fine-Tune Embedding Model to SEC Filings + Stock/Financial news
-1. Implement contrastive learning
-    1. Train embedding model on contrastive pairs (query, relevant chunk) that are close in vector space
-        1. also train on opposite pairs (query, irrelevant chunk) that should be far 
-*** REQUIREMENTS:
-1. dataset of financial queries + relevant SEC/news passages
-2. base model to fine-tune (e.g. sentence-transformers on HuggingFace)
-3. a GPU 
-
-Fine-Tune Transformer Model to SEC Filings + Stock/Financial news
-1. implement q-lora or LoRA (low-rank adaptation) fine-tuning
-** Note: q-LoRA is probably better for the limited hardware set-up
-** REQUIREMENTS:
-1. large, high-quality dataset of financial reasoning examples (analyst reports, earnings call Q&As, structured chain-of-thought filings)
-
-Create Master Repo txt File:
-1. Contains detailed description and explanation of each file 
-2. Contains all relationships with other files
-
-
-Improve Chunking System
-1. Weigh chunks based on contextual importance
-2. run cross-encoder reranker on retrieved chunks before passing to decoder
-
-Agentic Depth;
-1. Verify ReAct loop is in place
-2. Give Yoda tools: live price fetch, earnings calendar lookup, news search
-    2. Does Yoda have any of these already? Does Yoda have other tools?
-3. Add memory across sessions to recall prior research on a ticker
-
-Evaluation:
-1. Create legitimate, benchmark dataset, 20-30 question/answer pairs grounded in real filings.
-2. Consider comparing with simple 2-agent (bull-bear) baselines
-3. 
-
-
-Sub-Agents:
-1. Build MCP to give subagents with diff personalities access to different tools?
-    1. E.g. bear agent should only access risk and macro data, while your momentum agent 
-    gets price and flow data
-
-Sub-Vector DB:
-
-1. Maybe creating a smaller vector DB would help speed things up?
-Ex: Ingests all information of a stock from SEC Edgar and then move to 
-Yoda's own DB to more easily parse information via RAG. 
-2. What type of RAG is needed?
-
-
 Run Review:
 
 1. Read README
@@ -80,19 +6,37 @@ Run Review:
 
 3. 
 Ask claude to run a deep-clean review of repo so i have a full understanding
-of the repo itself. Act as if I know nothing. I want a full understanding because
-I realize that I rushed through the creation of Yoda without thinking through the pipeline,
-or finer details. I want a complete and specific udnerstanding of everything so I 
+of the repo itself. Act as if I know nothing. I want a full understanding of everything so I 
 can modify and add governance, security, rework agentic swarm, evaluation, toolset,
 repo structure, etc. Treat this as a once-in-a-decade deep clean for a house, not 
 just calling the maids to come clean. 
 
-Note: it is important that Yoda has solid fundamentals. We must also ensure that the agent is not overcomplicated, has a stop condition, and has guardrails.
-We should check to make sure each part of the pipeline is necessary for the envisioned product. 
+4. Record the deep review 
 
-I want to move forward with development, but first want a solid understanding of what 
-I have built.
+5. Gather domain knowledge of pre-earnings indicators and research practices.
 
-Note that I am completely open to getting rid of sections of the current Yoda pipeline to create something better. 
-We are not scared to rebuild things, because an improved and rebuilt end product is better than a version that took
-shortcuts.
+6. Rework Yoda
+
+----------------------------
+
+IDEAS for Improvements/Changes
+
+- Add Offline Mode
+1. Use Ollama or Qwen?
+
+- Improve Report Content:
+1. Add implied volatility, expectations, and whisper number discourse
+
+- Improve Retrieval Quality:
+1. better chunking - recursive/semantic chunking instead of fixed splits?
+2. Fine-Tune Embedding Model to SEC Filings + Stock/Financial news?
+
+- Create Master Repo txt File:
+1. Contains detailed description and explanation of each file 
+2. Contains all relationships with other files
+
+
+
+
+
+
