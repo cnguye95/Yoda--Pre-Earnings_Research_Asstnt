@@ -35,8 +35,90 @@ IDEAS for Improvements/Changes
 1. Contains detailed description and explanation of each file 
 2. Contains all relationships with other files
 
+- Fine-tune the model on financial and earnings-specific language
+1. 
 
 
 
+---------------------------
+Recommendations for Improving Reasoning, Business Impact, Decisions, to help improve Job Hunt
 
+Priority order (read first)
 
+Reviewers spend 2–3 minutes on a repo. The README's first screen carries almost all the weight; content four scrolls down may never be read. Therefore:
+
+P0 — README restructure (Task 1). Highest return on effort. If nothing else ships, ship this.
+P1 — Design decisions section (Task 2) and cost analysis (Task 3).
+P1 — Error analysis (Task 4). Strong signal, but requires real runs — pairs with the debugging pass.
+P2 — Roadmap reframe (Task 5). Cheap, do it whenever the file is open anyway.
+
+Known tension, stated so it isn't forgotten: this whole section optimizes for how Yoda reads, not how Yoda works. The system has never had a proper review/debugging pass, and a technical interviewer can discover that in ten minutes of questions. The debugging pass (tracked elsewhere in this file) is the real credibility work; do not let README polish indefinitely displace it. Reasonable split: Task 1 now, Tasks 2–5 interleaved with the debugging pass rather than before it.
+
+Task 1 — Restructure the README to lead with the measured result (P0)
+
+Why. A reviewer currently encounters architecture first ("RAG + ReAct agent, SEC EDGAR ingestion, ChromaDB"). Architecture describes plumbing — how. The strongest thing this repo owns is a whether-it-worked statement: on a 20-report evaluation (10 tickers) judged by a model from a different family (Claude Sonnet), Yoda outperformed a single-pass LLM baseline on all five rubric dimensions (extraction, accuracy, traceability, relevance, usefulness). Almost no portfolio project has a measured result at all; leading with one is the single biggest differentiator available, at near-zero build cost.
+
+Do.
+
+ Rewrite the README opening so the first content a reader sees is the evaluation result, stated with its actual numbers: N tickers, N judged reports, judge model and family, the five rubric dimensions, and the direction/size of the win on each.
+ Move the architecture description below the result. Architecture is the supporting evidence for the result, not the headline.
+ Adopt this section order for the whole README — it is the template for every project repo going forward: problem → why it's hard → decisions & rejected alternatives → measured result → honest failures → prioritized next steps. Code is the appendix, not the story.
+
+Acceptance. A reader who stops after the first screen knows (a) what problem Yoda solves, (b) that it was evaluated against a baseline, and (c) that it won, with numbers.
+
+Task 2 — Write the "Design decisions" section with rejected alternatives (P1)
+
+Why. At least four non-obvious engineering calls are currently silent in the code. A decision only reads as reasoning when the rejected alternative is named — "we used X" is a fact; "we used X instead of Y because Z" is judgment. Reviewers explicitly cite missing reasoning/decisions as the top reason strong technical portfolios fail to land.
+
+Do. Add a ## Design decisions section to the README (or a linked DECISIONS.md if it runs long — but keep at least the strongest one in the README itself). Cover each of the following as: chose / rejected / because:
+
+ Six-persona adversarial debate panel vs. the rejected alternative of a single analyst prompt. State what the adversarial structure buys (surfacing disagreement, forcing bear-case coverage) and what it costs (API spend, latency — cross-reference Task 3).
+ Cross-family judge (Claude Sonnet judging an OpenAI-primary pipeline) vs. the rejected alternative of same-family judging. This one deserves the most words: it shows awareness of same-family evaluation bias, a subtle failure mode most people building LLM evals have not thought about. Three sentences minimum, in the README proper, not exiled to a linked file.
+ Cite-or-skip discipline in the Pydantic v2 schema vs. the rejected alternative of free-text generation with post-hoc verification. Frame: hallucination control as a schema-level constraint rather than a prompt-level plea.
+ ChromaDB vs. whichever alternatives were actually considered. If the honest answer is "it was the default and no alternative was seriously weighed," write that — an honest non-decision is better signal than a retrofitted justification, and it can feed the roadmap (Task 5) as a revisit item.
+ OpenAI primary + Ollama toggle — hold this one; it is the spine of Task 3 and should be written as a cost/quality tradeoff there, then referenced here.
+
+Acceptance. Every entry names a rejected alternative. No entry is pure description of what exists.
+
+Task 3 — Convert the cost complaint into a cost/quality analysis (P1)
+
+Why. The dissatisfaction with expensive API calls is already business thinking — it is just living in Calis's head instead of the repo. Quantified, it reframes a perceived weakness (expensive) as an analyzed engineering tradeoff (cost-aware design with a measured cheap mode). This is the "business impact" reviewers look for and rarely find.
+
+Do.
+
+ Instrument or reconstruct cost-per-report for the full OpenAI pipeline: token counts per stage (ingestion, retrieval, six personas, judge), price per token at current rates, total $/report. If historical logs are insufficient, run 2–3 fresh reports with token accounting turned on. TODO(calis) markers where a number needs a run that hasn't happened yet.
+ Produce the same figure for the Ollama local-model mode.
+ If feasible, run the existing eval harness on the local-mode outputs so the comparison has a quality axis, not just a cost axis. Target artifact — one table: mode | $/report | rubric scores. That table is a genuine business-impact statement: "full pipeline: $X/report at quality Y; local mode: $X/N at quality Z."
+ Surface the headline of that table in the README near the measured result; details can live in a linked doc or notebook.
+
+Acceptance. A reader can answer "what does one Yoda report cost, and what do I give up by running it cheap?" with numbers, not adjectives.
+
+Task 4 — Add an honest failure / error-analysis section (P1, pairs with debugging pass)
+
+Why. Error analysis is the single strongest seniority signal available to a junior portfolio, because course projects never do it — courses end when the model works. It is also the repo-level version of the negative-control argument made in the backtest-lies repo: a system that has never been probed for failure has an unmeasured pipeline. Applying one's own methodology to oneself is a credibility multiplier; conspicuously not applying it is a vulnerability an interviewer can find.
+
+Do.
+
+ From existing eval runs (and any new ones from the debugging pass), identify and document where Yoda does badly: which tickers, which persona outputs are weak or redundant, which retrieval misses occur, which rubric dimension scores lowest and on what kind of filing.
+ Write a ## Where Yoda fails section: 3–6 concrete, specific failure cases with a one-line hypothesis each for the cause. Specificity is the point — "retrieval misses segment-level revenue detail in 10-Ks with non-standard section ordering" is signal; "sometimes retrieval is imperfect" is filler and worse than nothing.
+ Link each failure hypothesis to a roadmap item (Task 5) where one exists.
+
+Acceptance. The section names specific failures with specific hypotheses. Zero generic hedging sentences.
+
+Task 5 — Reframe the roadmap as prioritized decisions (P2)
+
+Why. The next moves are already known: debugging/review pass, replacing the PDF-you-have-to-read with interactive output, the Phase 3 orchestrator rebuild, revisiting fine-tuning on domain ingestions. Written as a TODO list, these read as an unfinished project. Written as prioritized decisions with rationale — this first because it blocks that, this deferred because — they read as product judgment. Same list, different signal.
+
+Do.
+
+ Rewrite the roadmap in the form: item → priority → because-clause → what it blocks or is blocked by. Include the deferrals explicitly (e.g., fine-tuning deferred until after the orchestrator rebuild, and why).
+ Fold in revisit-items generated by Task 2 (any honest non-decisions) and failure hypotheses from Task 4, so the roadmap visibly traces back to evidence.
+
+Acceptance. Every roadmap item has a because-clause. Deferred items state why they're deferred, not just that they are.
+
+Standing rules for this workstream (Calis + Claude Code)
+Measured means measured. Any claim in the README about performance, cost, or quality must trace to a real run. No projected, estimated, or illustrative numbers presented as results. Use TODO(calis) for gaps.
+Keep rejected alternatives. When editing the decisions section, never compress "chose X over Y because Z" down to "uses X." The rejected alternative is the signal.
+Honesty over polish. "This was a default, not a decision" and "this has not been debugged" are acceptable sentences in this repo. Retrofitted justifications are not.
+First screen discipline. Any README edit should be checked against: what does a reader see without scrolling? The measured result stays above the fold.
+Don't let this displace the debugging pass. If a week has gone to Tasks 2–5 and the review/debugging pass hasn't moved, stop and rebalance. Legibility work on an unreviewed system has a ceiling.

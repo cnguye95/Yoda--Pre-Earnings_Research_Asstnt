@@ -1,5 +1,5 @@
 ---
-description: Research a topic and weigh options against this repo
+description: Research a topic and weigh options against this repo. Use when the user asks to research an unfamiliar topic, compare tools/approaches, or wants options weighed before a decision — not for topics already well understood or single-answer factual lookups.
 argument-hint: <topic or question>
 allowed-tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
